@@ -121,7 +121,7 @@ const Header = () => {
                                     Contact
                                 </a>
                             </li>
-                            <li>
+                            <li className="relative group">
                                 <Link
                                     href={`/${router.locale === "en" ? "jp" : "en"}`}
                                     locale={false}
