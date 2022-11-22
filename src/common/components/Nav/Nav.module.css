@@ -1,0 +1,11 @@
+
+
+.sidebar-menu__link {
+    @apply px-3 py-3 flex justify-between border-b border-gray-200;
+}
+.sidebar-sub-menu {
+    @apply border border-gray-100 bg-white z-10;
+}
+.nav__item {
+    @apply rounded-full text-sm md:text-base text-gray-600 hover:text-gray-800;
+}

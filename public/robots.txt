@@ -1,0 +1,18 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /services/mobile-development-outsourcing
+Disallow: /services/enterprise/sap-consulting-services
+Disallow: /industries/overview
+Disallow: /culture
+Disallow: /location/signup-campaign
+Disallow: /*.html$
+
+
+
+# Host
+Host: https://seta-international.com/
+
+# Sitemaps
+Sitemap: https://seta-international.com/sitemap.xml
+

@@ -1,0 +1,12 @@
+.banner-main {
+    @apply py-16 lg:py-28 bg-cover;
+}
+.banner__title {
+    @apply font-bold text-white text-3xl md:text-4xl xl:text-5xl xl:leading-tight uppercase;
+}
+.banner__desc {
+    @apply text-white text-lg my-8;
+}
+.banner__btn {
+    @apply transition ease-in-out duration-300 text-white py-3 px-4 border border-white cursor-pointer hover:bg-[#2C5282] hover:text-white uppercase;
+}

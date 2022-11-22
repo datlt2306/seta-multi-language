@@ -1,0 +1,19 @@
+.breadcrumb{
+    @apply flex space-x-4 mb-4;
+}
+.breadcrumb li:last-child svg{
+    @apply hidden;
+}
+.breadcrumb li:last-child a{
+    @apply cursor-auto border-b pb-0.5
+}
+.breadcrumb a{
+    text-transform: capitalize;
+    @apply flex text-white items-center space-x-4;
+}
+.breadcrumb svg{
+    margin-bottom: -3px;
+}
+.center{
+    @apply justify-center;
+}
