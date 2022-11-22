@@ -126,7 +126,7 @@ const Header = () => {
                                     href={`/${router.locale === "en" ? "jp" : "en"}`}
                                     locale={false}
                                 >
-                                    <a className="block md:hidden">
+                                    <a className="block py-1">
                                         {router.locale === "en" ? (
                                             <Image
                                                 src="/images/icons/japan.png"
@@ -148,6 +148,25 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="flex space-x-5 items-center">
+                        <Link href={`/${router.locale === "en" ? "jp" : "en"}`} locale={false}>
+                            <a className="block md:hidden">
+                                {router.locale === "en" ? (
+                                    <Image
+                                        src="/images/icons/japan.png"
+                                        width={32}
+                                        height={32}
+                                        priority
+                                    />
+                                ) : (
+                                    <Image
+                                        src="/images/icons/united-states-of-america.png"
+                                        width={32}
+                                        height={32}
+                                        priority
+                                    />
+                                )}
+                            </a>
+                        </Link>
                         <button
                             id="menu-switch"
                             className={styles["menu-switch"]}
