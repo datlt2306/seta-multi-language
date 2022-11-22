@@ -121,6 +121,30 @@ const Header = () => {
                                     Contact
                                 </a>
                             </li>
+                            <li>
+                                <Link
+                                    href={`/${router.locale === "en" ? "jp" : "en"}`}
+                                    locale={false}
+                                >
+                                    <a className="block md:hidden">
+                                        {router.locale === "en" ? (
+                                            <Image
+                                                src="/images/icons/japan.png"
+                                                width={32}
+                                                height={32}
+                                                priority
+                                            />
+                                        ) : (
+                                            <Image
+                                                src="/images/icons/united-states-of-america.png"
+                                                width={32}
+                                                height={32}
+                                                priority
+                                            />
+                                        )}
+                                    </a>
+                                </Link>
+                            </li>
                         </ul>
                     </div>
                     <div className="flex space-x-5 items-center">
