@@ -208,30 +208,30 @@ export default {
         ],
     },
     menuAboutUs: {
-        heading: "About Us",
+        heading: "企業情報",
         menus: [
             {
-                label: "Culture",
+                label: "文化",
                 path: "/about/culture",
             },
             {
-                label: "Location",
+                label: "場所",
                 path: "/about/location",
             },
             {
-                label: "Seta Insight",
+                label: "SETAインサイト",
                 path: "https://blog.seta-international.com",
                 icon: "/images/icons/papers.png",
             },
         ],
     },
     menuRD: {
-        heading: "R&D",
-        menus: [{ label: "Research & Development", path: "/research-development" }],
+        heading: "研究・開発",
+        menus: [{ label: "研究・開発", path: "/research-development" }],
     },
     menuResourceCenter: {
-        heading: "Resource Center",
-        menus: [{ label: "Case Studies", path: "/case-study" }],
+        heading: "リソースセンター",
+        menus: [{ label: "事例", path: "/case-study" }],
     },
     contact: {
         title: "お問い合わせ",
@@ -267,13 +267,13 @@ export default {
             "デジタルトランスフォーメーションとデジタルイノベーションによって、各企業のビジネス成長を支援します。",
         banner: [
             {
-                title: "SETA Representative at <br />InfoComm Southeast Asia 2022",
-                time: "2-4 November 2022",
-                location: "Location: Bangkok International Trade and Exhibition Centre",
-                readmore: "Read More",
+                title: "2022年InfoComm Southeast AsiaにおけるSETA代表。",
+                time: "2022年11月2日～4日",
+                location: "場所 バンコク国際見本市・展示場",
+                readmore: "もっと見る",
             },
             {
-                title: "2022年<br class='hidden xl:block'>世界技術革新会議(WCIT 2022)における<br class='hidden xl:block'>SETA代表.",
+                title: "2022年<br class='hidden xl:block'>世界技術革新会議(WCIT 2022)における<br class='hidden xl:block'>SETA代表。",
                 time: "2022年9月13日～15日",
                 location: "所在地：マレーシア・ペナン市",
                 readmore: "もっと見る",
@@ -473,8 +473,8 @@ export default {
                 {
                     id: 1,
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/portfolio/Veritone_redact.jpeg",
-                    name: "Case Study - Redact",
-                    desc: "Save time and costs while freeing up valuable resources by using the AI-powered Veritone Redact to automate the redaction of sensitive information within audio, video and image-based evidence.",
+                    name: "事例 - Redact",
+                    desc: "AIを搭載したVeritone Redactを使用して、音声、映像、画像ベースの証拠内の機密情報の再編集を自動化することで、貴重なリソースを解放しながら時間とコストを削減します。",
                 },
                 {
                     id: 2,
@@ -1127,7 +1127,7 @@ export default {
                     },
                     {
                         id: 6,
-                        name: "TEACHERZONE",
+                        name: "TEACHER ZONE",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/teacherzone.png",
                         path: "/case-study/teacher-zone",
@@ -1275,7 +1275,7 @@ export default {
                     },
                     {
                         id: 4,
-                        name: "TEACHERZONE",
+                        name: "TEACHER ZONE",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/teacherzone.png",
                         path: "/case-study/teacher-zone",
@@ -2301,7 +2301,7 @@ export default {
                         "オンラインレストラン管理ソフトウェアであるRestaurantSystemsProは、レストランのトレーニングおよびコーチング会社であるTheRestaurantExpert.comによって、独立したレストラン向けにゼロから開発されました。レストランは経営が最も難しいビジネスの1つですが、適切なシステムを運用に適用すれば、やりがいがあり、収益を上げることができます。それが私たちが提供するもの、つまり適切なシステムです。",
                 },
                 {
-                    name: "TEACHERZONE",
+                    name: "TEACHER ZONE",
                     thumbnailUrl:
                         "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/teacherzone.png",
                     path: "/case-study/teacher-zone",
@@ -2331,8 +2331,6 @@ export default {
         title: "小売業向けソフトウェア開発サービス",
         descriptionOne:
             "SETA Internationalは、小売業者が破壊的なリテール技術を使って、あらゆるチャネルで一貫した顧客中心のショッピング体験を提供できるよう支援します。お客様のビジネスが現在直面している痛点を定義し、正しい戦略を適用し、成長を促進するためのイノベーションを活用できるよう支援します。消費者行動とコンバージョンの動機付けを研究し、強力な技術的専門知識を適用することで、私たちの小売ソフトウェア開発サービスによって、あなたの小売ビジネスを次のレベルの効率に導きます。",
-        descriptionTwo:
-            "SETA Internationalは、小売業者が破壊的なリテール技術を使って、あらゆるチャネルで一貫した顧客中心のショッピング体験を提供できるよう支援します。私たちは、お客様のビジネスが現在直面している痛点を定義し、正しい戦略を適用し、成長を促進するためのイノベーションを活用できるよう支援します。",
         sectionOne: {
             title: "小売店向けソフトウェア開発サービスは、どのような場合に必要でしょうか？",
             items: [
@@ -2390,7 +2388,7 @@ export default {
                 "成功は簡単に達成できるものではありませんが、信頼できるパートナーと効果的なコラボレーションがあれば、厳しい試みをしなくても成功を収めることができます。私達と一緒に。",
             items: [
                 {
-                    name: "TrendMicro",
+                    name: "Trend Micro",
                     path: "/case-study/trendmicro",
                     thumbnailUrl:
                         "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/trendingmicro/3.jpg",
@@ -2433,7 +2431,7 @@ export default {
                         "AVIAは、最新のテクノロジーと伝統的なブティック型顧客サービスを融合させた、初のリアルタイム・デジタル・チャーター市場です。 AVIA独自のテクノロジーは、名目上の価格、乗客ゼロ、ポジショニングフライトと金銭感覚に優れた乗客の接続に特化しています。これらの「空の足」は、小銭で売ることができ、ビジネスクラスの商業フライトと真のプライベートチャーター体験の間のコストギャップを埋めることができます。",
                 },
                 {
-                    name: "TollRoad",
+                    name: "The Toll Roads",
                     path: "/case-study/tollroads",
                     thumbnailUrl:
                         "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/tollroad/2.jpg",
@@ -2475,7 +2473,7 @@ export default {
                         "オンラインレストラン管理ソフトウェアであるRestaurantSystemsProは、レストランのトレーニングおよびコーチング会社であるTheRestaurantExpert.comによって、独立したレストラン向けにゼロから開発されました。レストランは経営が最も難しいビジネスの1つですが、適切なシステムを運用に適用すれば、やりがいがあり、収益を上げることができます。それが私たちが提供するもの、つまり適切なシステムです。",
                 },
                 {
-                    name: "Teacherzone",
+                    name: "Teacher Zone",
                     path: "/case-study/teacher-zone",
                     thumbnailUrl:
                         "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/teacherzone.png",
@@ -2808,7 +2806,7 @@ export default {
         },
     },
     tollroads: {
-        title: "The TollRoadsについて",
+        title: "The Toll Roadsについて",
         description:
             "ワンタイム料金の支払い、FasTrakアカウントの新規登録、FasTrakアカウントのメンテナンス（車両変更、支払い、料金履歴、トランスポンダーのメンテナンスなど）を提供します。",
         challenge: {
@@ -2872,7 +2870,7 @@ export default {
         },
         projects: [
             {
-                name: "Aiware",
+                name: "aiWARE",
                 thumbnailUrl:
                     "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/project/new/1.jpg",
                 content:
@@ -3019,7 +3017,7 @@ export default {
             {
                 id: 6,
                 img: "https://da8pk1kbkdsqo.cloudfront.net/images/icons/culture/6.svg",
-                name: "SETA COMMUNITIES",
+                name: "SETA コミュニティ",
             },
         ],
         employee: {
