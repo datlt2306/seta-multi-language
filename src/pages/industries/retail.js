@@ -13,9 +13,8 @@ const Retail = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Retail Industry",
-                        description:
-                            "SETA International helps retailers provide consistent and customer-centric shopping experiences across all channels with disruptive retail technologies. We do that by defining the pain points your business faces today and helping you apply the right strategies and tap on innovation to drive growth. By researching what motivates consumer behavior and conversions and applying our strong technical expertise, we’ll bring your retail business to the next level of efficiency with our retail software development services.",
+                        title: `${retail.title}`,
+                        description: `${retail.description}`,
                         url: "https://seta-international.com/industries/retail/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,15 +22,8 @@ const Retail = () => {
             </Suspense>
             <Banner
                 image="banner/retail.jpg"
-                title="Retail Industry"
-                description="SETA International helps retailers provide consistent and
-                customer-centric shopping experiences across all channels with
-                disruptive retail technologies. We do that by defining the pain points
-                your business faces today and helping you apply the right strategies and
-                tap on innovation to drive growth. By researching what motivates
-                consumer behavior and conversions and applying our strong technical
-                expertise, we’ll bring your retail business to the next level of
-                efficiency with our retail software development services."
+                title={retail.title}
+                description={retail.description}
             />
 
             <section className="section bg-white">

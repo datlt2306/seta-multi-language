@@ -13,9 +13,8 @@ const Industries = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Meet The Expert In Your Industries",
-                        description:
-                            "With over ten years and 500+ global clients, SETA International has gained extensive knowledge across many industries. Discover the best technological solution for your company by talking with our specialists.",
+                        title: `${industries.title}`,
+                        description: `${industries.description}`,
                         url: "https://seta-international.com/industries/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,10 +22,8 @@ const Industries = () => {
             </Suspense>
             <Banner
                 image="banner/industries.jpg"
-                title="Meet The Expert In Your Industries"
-                description="With over ten years and 500+ global clients, SETA International has
-                gained extensive knowledge across many industries. Discover the best
-                technological solution for your company by talking with our specialists."
+                title={industries.title}
+                description={industries.description}
             />
             <section className="offering section border-b">
                 <div className="max-w-7xl mx-auto px-5">

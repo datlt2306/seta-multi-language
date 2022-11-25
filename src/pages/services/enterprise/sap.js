@@ -18,22 +18,14 @@ const SapPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "SAP Services",
-                        description:
-                            "As one of the leading consulting companies in Vietnam, SETA International has a proven track record of delivering robust software solutions to organizations worldwide. We has emerged as a leading organization in the field of SAP consulting and helps our customers to improve the competitiveness of their business operations using latest SAP tools and technologies.",
+                        title: `${sap.title}`,
+                        description: `${sap.description}`,
                         url: "https://seta-international.com/services/enterprise/sap/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
             </Suspense>
-            <Banner
-                image="banner/sap.jpg"
-                title="SAP Services"
-                description=" From project preparation to online e-learning, from building internal IT
-                team to new employee training, SETA International corporate training and
-                personal educational consulting services can meet different types of
-                user training required for the intelligent enterprise."
-            />
+            <Banner image="banner/sap.jpg" title={sap.title} description={sap.description} />
             <section className="section">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="grid md:grid-cols-2 gap-x-8 gap-y-12">
@@ -70,12 +62,8 @@ const SapPage = () => {
             <section className="section bg-gray-100">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="text-center pb-10">
-                        <h2 className="section__title">Our Success Stories</h2>
-                        <p className="section__desc">
-                            Success is no easy accomplishment, but with a trusted partner and an
-                            effective collaboration, success comes to you without harsh tries. With
-                            us!
-                        </p>
+                        <h2 className="section__title">{sap.stories.title}</h2>
+                        <p className="section__desc">{sap.stories.description}</p>
                     </div>
                     {sap.stories.items.map((item, index) => (
                         <div className="grid md:grid-cols-2 gap-12 mb-10" key={index}>

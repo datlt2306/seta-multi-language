@@ -14,9 +14,8 @@ const MediaEntertaiment = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Media & Entertainment Industry",
-                        description:
-                            "Media and Entertainment (M&E) industry is in a transformation phase as both old and new continues to coexist. Interactivity, digitization, multiple-platforms, multiple-devices and globalization of services based landscape has remodeled the media and entertainment vertical over the last decade.",
+                        title: `${media.title}`,
+                        description: `${media.description}`,
                         url: "https://seta-international.com/industries/media-entertaiment/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -24,12 +23,8 @@ const MediaEntertaiment = () => {
             </Suspense>
             <Banner
                 image="banner/automotive.jpg"
-                title="Media & Entertainment Industry"
-                description="Media & Entertainment (M&E) industry is in a transformation
-                phase as both old and new continues to coexist. Interactivity,
-                digitization, multiple-platforms, multiple-devices and globalization of
-                services based landscape has remodeled the media and entertainment
-                vertical over the last decade."
+                title={media.title}
+                description={media.description}
             />
 
             <section className="section">
@@ -184,126 +179,24 @@ const MediaEntertaiment = () => {
                         <p className="section__desc">{media.stories.description}</p>
                     </div>
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div>
-                            <Link href="/case-study/veritone">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/veritone.jpg"
-                                        alt="VERITONE"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        VERITONE
-                                    </h3>
-                                    <p>
-                                        Veritone is one of top AI companies focusing on
-                                        democratizing AI and enabling every organization and every
-                                        person with the power of AI. What started in 2014 with the
-                                        idea of providing unified access to hundreds of cognitive
-                                        engines through one common software infrastructure, evolved
-                                        to the world’s first AI operating system, aiWARE, which
-                                        orchestrates a diverse ecosystem of cognitive engines to
-                                        power intelligent automation for both commercial and
-                                        government organizations.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link href="/case-study/restaurant">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/restaurant.jpg"
-                                        alt="THE RESTAURANT EXPERT"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        THE RESTAURANT EXPERT
-                                    </h3>
-                                    <p>
-                                        Restaurant Systems Pro, an online restaurant management
-                                        software, was developed from the ground up for independent
-                                        restaurants by TheRestaurantExpert.com, a restaurant
-                                        training and coaching company. A restaurant is one of the
-                                        most difficult businesses to run, but it can be rewarding
-                                        and profitable if you apply the right systems in your
-                                        operations. That is what we provide you – the right systems.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link href="/case-study/teacher-zone">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/teacherzone.png"
-                                        alt="TEACHERZONE"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        TEACHERZONE
-                                    </h3>
-                                    <p>
-                                        Teacher Zone is an all-in-one platform to engage your
-                                        students, automate your admin, and take control of your
-                                        business. Teacher Zone has provided a platform for me to
-                                        offer more organized and structured practice assignments to
-                                        students. The chat feature has been amazing as a way to
-                                        encourage students to interact with each other and build
-                                        community outside of class.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link href="/case-study/motion-global">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/motion-global/3.jpg"
-                                        alt="Motion Global"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        Motion Global
-                                    </h3>
-                                    <p>
-                                        Motion Global operates the SmartBuyGlasses Optical Group,
-                                        one of the world’s largest designer eyewear e-commerce
-                                        companies. With a presence across Asia Pacific, Europe and
-                                        the Americas, we have been market leaders in over 20
-                                        countries for more than 10 years.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link href="/case-study/sk-planet">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/skp/2.jpg"
-                                        alt="SK Planet"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        SK Planet
-                                    </h3>
-                                    <p>
-                                        AppFactory, is a new company established by SK Planet in
-                                        2012, a globally recognized and respected leader in
-                                        innovative mobile services. AppFactory’s mission is to
-                                        transform great ideas into compelling mobile apps for the
-                                        global market. SK Planet was created by SK Telecom in
-                                        November 2011 with the purpose of focusing on global
-                                        businesses, including new media and digital content.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
+                        {media.stories.items.map((story, index) => (
+                            <div>
+                                <Link href={story.path}>
+                                    <a>
+                                        <img
+                                            loading="lazy"
+                                            src={story.thumbnailUrl}
+                                            alt={story.name}
+                                            className="mx-auto w-full object-cover h-60 lg:h-96"
+                                        />
+                                        <h3 className="font-bold text-[#2C5282] text-xl my-6">
+                                            {story.name}
+                                        </h3>
+                                        <p>{story.content}</p>
+                                    </a>
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

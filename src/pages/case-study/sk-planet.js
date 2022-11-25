@@ -15,23 +15,14 @@ const Skplanet = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - App Factory",
-                        description:
-                            "App Factory, is a new company established by SK Planet in 2012, a globally recognized and respected leader in innovative mobile services. App Factory’s mission is to transform great ideas into compelling mobile apps for the global market. SK Planet was created by SK Telecom in November 2011 with the purpose of focusing on global businesses, including new media and digital content.",
+                        title: `${skplanet.title}`,
+                        description: `${skplanet.description}`,
                         url: "https://seta-international.com/case-study/sk-planet/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
             </Suspense>
-            <BannerCaseStudy
-                title="About App Factory"
-                description="App Factory, is a new company established by SK Planet in 2012, a globally
-                recognized and respected leader in innovative mobile services. App Factory’s
-                mission is to transform great ideas into compelling mobile apps for the
-                global market. SK Planet was created by SK Telecom in November 2011 with the
-                purpose of focusing on global businesses, including new media and digital
-                content."
-            />
+            <BannerCaseStudy title={skplanet.title} description={skplanet.description} />
             <section className="-mt-20 relative z-10">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="border-8 rounded shadow-lg">
@@ -47,10 +38,7 @@ const Skplanet = () => {
                                 {skplanet.challenge.title}
                             </h2>
                             <p className="text-[#2A4365] leading-7 mt-8">
-                                App Factory is a startup company and wants to shorten the
-                                time-to-market with innovative products and services. They need a
-                                trust partner for augmenting development services, while not
-                                sacrificing quality.
+                                {skplanet.challenge.description}
                             </p>
                         </div>
                         <div>
@@ -74,17 +62,7 @@ const Skplanet = () => {
                 <div className="max-w-7xl mx-auto px-5 text-center flex flex-col items-center">
                     <h2 className="text-white text-5xl font-bold">{skplanet.solution.title}</h2>
                     <p className="text-white text-lg mt-5">
-                        SETA has entered into a formal agreement with App Factory (a SK Telecom
-                        company) as one of their strategic technology partners to assist with their
-                        internal and external software development needs. With over 15+ software
-                        developers and quality assurance engineers assisting with their internal
-                        product development roadmap, each and every one of their high quality
-                        software developers and quality assurance engineers works closely with their
-                        internal organization to maximize their efficiency and productivity across
-                        the globe. App Factory were able to quickly integrate SETA&apos;s industry
-                        leading hybrid development model which allowed them to maximize efficiency
-                        across their organization while reducing operational cost and maximizing
-                        ROI.
+                        {skplanet.solution.description}
                         <br />
                         <br />
                         See

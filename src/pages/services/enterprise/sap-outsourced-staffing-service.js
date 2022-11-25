@@ -13,9 +13,8 @@ const SapOutsourcedStaffingServicesPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "SAP Outsourced Staffing Service",
-                        description:
-                            "SETA International has a pool of seasoned professionals who can help your business to grow with the help of latest SAP tools and technologies. Apart from that, we also assist organizations in handling their staffing and resourcing requirements by connecting them with the experienced and skilled SAP Consultants and on boarding them in a cost effective manner without comprising on quality",
+                        title: `${sapStaffing.title}`,
+                        description: `${sapStaffing.description}`,
                         url: "https://seta-international.com/services/enterprise/sap-outsourced-staffing-service/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

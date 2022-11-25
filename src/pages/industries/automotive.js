@@ -13,9 +13,8 @@ const Automotive = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Automotive Industry",
-                        description:
-                            "The automotive industry is racing into a new world of mobility, even as it manages to recover from the pandemic and continues with the traditional business model of designing, manufacturing, selling, servicing, and financing cars.",
+                        title: `${automotive.title}`,
+                        description: `${automotive.description}`,
                         url: "https://seta-international.com/industries/automotive/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,11 +22,8 @@ const Automotive = () => {
             </Suspense>
             <Banner
                 image="banner/automotive.jpg"
-                title="Automotive Industry"
-                description="The automotive industry is racing into a new world of mobility, even as
-                it manages to recover from the pandemic and continues with the
-                traditional business model of designing, manufacturing, selling,
-                servicing, and financing cars."
+                title={automotive.title}
+                description={automotive.description}
             />
 
             <section className="section">

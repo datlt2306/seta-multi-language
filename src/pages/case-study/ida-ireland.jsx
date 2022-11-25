@@ -14,9 +14,8 @@ const Ireland = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - IDA Ireland",
-                        description:
-                            "The IDA or Ireland's inward investment promotion agency is responsible for attracting and developing foreign investment into Ireland.",
+                        title: `${idaIreland.title}`,
+                        description: `${idaIreland.description}`,
                         url: "https://seta-international.com/case-study/ida-ireland/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

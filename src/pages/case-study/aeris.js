@@ -15,9 +15,8 @@ const Aeris = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Aeris",
-                        description:
-                            "Aeris is a technology partner with a proven history of helping companies unlock value through IoT. Built from the ground up for IoT and globally tested at scale, Aeris IoT services are based on the broadest technology stack in the industry, including the Aeris Connectivity Platform (ACP) and the Aeris Mobility Suite (The Suite), spanning connectivity up to vertical solutions for things that move.",
+                        title: `${aeris.title}`,
+                        description: `${aeris.description}`,
                         url: "https://seta-international.com/case-study/aeris/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

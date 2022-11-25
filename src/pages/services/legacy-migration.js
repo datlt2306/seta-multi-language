@@ -15,9 +15,8 @@ const LegacyMigrationPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Legacy Migration Service",
-                        description:
-                            "Constant technology evolutions often lead to outdated systems and low performance, but these reasons should not stop you from gaining an edge over the competition. With SETA International’s legacy application migration services, you are constantly modernized to adapt to the changing business needs of lower costs and fewer risks.",
+                        title: `${legacy.title}`,
+                        description: `${legacy.description}`,
                         url: "https://seta-international.com/services/legacy-migration/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -25,12 +24,8 @@ const LegacyMigrationPage = () => {
             </Suspense>
             <Banner
                 image="banner/migration.jpg"
-                title="Legacy Migration Service"
-                description="Constant technology evolutions often lead to outdated systems and low
-                performance, but these reasons should not stop you from gaining an edge
-                over the competition. With SETA International’s legacy application
-                migration services, you are constantly modernized to adapt to the
-                changing business needs of lower costs and fewer risks."
+                title={legacy.title}
+                description={legacy.description}
             />
             <section className="section">
                 <div className="max-w-7xl mx-auto px-5">

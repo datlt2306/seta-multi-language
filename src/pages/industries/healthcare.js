@@ -13,9 +13,8 @@ const Healthcare = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Healthcare Industry",
-                        description:
-                            "SETA International has been partnering with companies in the healthcare sector, helping them leverage technological innovation to automate internal processes, enhance the customer experience, and manage medical information more efficiently. We build secure and regulatory compliant software solutions that streamline communication between patients, doctors, health insurance companies, pharmaceutical suppliers, and medical device vendors to accelerate the creation of a resilient healthcare ecosystem.",
+                        title: `${healthcare.title}`,
+                        description: `${healthcare.description}`,
                         url: "https://seta-international.com/industries/healthcare/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,15 +22,8 @@ const Healthcare = () => {
             </Suspense>
             <Banner
                 image="banner/heathcarejpg.jpg"
-                title="Healthcare Industry"
-                description="SETA International has been partnering with companies in the healthcare
-                sector, helping them leverage technological innovation to automate
-                internal processes, enhance the customer experience, and manage medical
-                information more efficiently. We build secure and regulatory compliant
-                software solutions that streamline communication between patients,
-                doctors, health insurance companies, pharmaceutical suppliers, and
-                medical device vendors to accelerate the creation of a resilient
-                healthcare ecosystem."
+                title={healthcare.title}
+                description={healthcare.description}
             />
 
             <section className="section">

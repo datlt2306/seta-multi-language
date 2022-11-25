@@ -13,9 +13,8 @@ const Cloud = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Next-Gen Technology - Cloud",
-                        description:
-                            " Businesses must transition to the cloud to stay relevant in today's shifting digital world and competitiveness. SETA International collaborates with companies to help them establish ways to improve conventional infrastructure, maintain it, and migrate to the cloud, no matter where they are on their cloud journey.",
+                        title: `${cloud.title}`,
+                        description: `${cloud.description}`,
                         url: "https://seta-international.com/next-gen/cloud/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,12 +22,8 @@ const Cloud = () => {
             </Suspense>
             <Banner
                 image="banner/next-gen/cloud.jpg"
-                title="Cloud"
-                description="Businesses must transition to the cloud to stay relevant in today's
-                shifting digital world and competitiveness. SETA International
-                collaborates with companies to help them establish ways to improve
-                conventional infrastructure, maintain it, and migrate to the cloud, no
-                matter where they are on their cloud journey."
+                title={cloud.title}
+                description={cloud.description}
             />
             <section className="section">
                 <div className="max-w-7xl mx-auto px-5">

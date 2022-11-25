@@ -14,9 +14,8 @@ const Opotics = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - EyeD Optics",
-                        description:
-                            "EyeD Optics is a manufacturer and retailer of designer glasses, sunglasses, and prescription lenses and contracted with SETA to build their e-commerce site and back-end management platform.",
+                        title: `${eyedOptics.title}`,
+                        description: `${eyedOptics.description}`,
                         url: "https://seta-international.com/case-study/eyed-optics/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

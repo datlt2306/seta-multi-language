@@ -13,9 +13,8 @@ const TeacherZone = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Teacher Zone",
-                        description:
-                            "Teacher Zone is an all-in-one platform to engage your students, automate your admin, and take control of your business. Teacher Zone has provided a platform for me to offer more organized and structured practice assignments to students. The chat feature has been amazing as a way to encourage students to interact with each other and build community outside of class.",
+                        title: `${teacherzone.title}`,
+                        description: `${teacherzone.description}`,
                         url: "https://seta-international.com/case-study/teacher-zone/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

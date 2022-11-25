@@ -13,9 +13,8 @@ const Iot = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Next-Gen Technology - Iot",
-                        description:
-                            " IOT is a giant network of connected devices. These devices collect and share data about how they are used and the environments in which they are operated via sensors. With years of experience, we can help you from developing Alexa and Google home applications to building complex IOT solutions for various industries using Cloud, data analytics, and hardware.",
+                        title: `${iot.title}`,
+                        description: `${iot.description}`,
                         url: "https://seta-international.com/next-gen/iot/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,13 +22,8 @@ const Iot = () => {
             </Suspense>
             <Banner
                 image="banner/next-gen/ai.jpg"
-                title="IoT"
-                description="IOT is a giant network of connected devices. These devices collect and
-                share data about how they are used and the environments in which they
-                are operated via sensors. With years of experience, we can help you from
-                developing Alexa and Google home applications to building complex IOT
-                solutions for various industries using Cloud, data analytics, and
-                hardware."
+                title={iot.title}
+                description={iot.description}
             />
 
             <section className="section">

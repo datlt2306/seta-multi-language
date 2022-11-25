@@ -11,9 +11,8 @@ import useTrans from "@/hooks/useTranslate";
 import Image from "next/image";
 
 const Header = () => {
-    const { toggle, toggleFunction } = React.useContext(ThemeContext);
-    const { menuList } = useTrans();
-    const router = useRouter();
+    const { toggleFunction } = React.useContext(ThemeContext);
+    const { menuList, menuContact } = useTrans();
     return (
         <header className="sticky top-0 z-50 bg-white shadow-md">
             <div className="max-w-7xl mx-auto px-5">
@@ -36,7 +35,7 @@ const Header = () => {
                             {menuList.map((route, index) => (
                                 <li key={index} className="relative group">
                                     <NavLink
-                                        href={route.path}
+                                        href={route.path ? route.path : ""}
                                         activeClassName={`${styles.activeMenu}`}
                                     >
                                         <a className={styles["menu-item__link"]}>
@@ -118,55 +117,12 @@ const Header = () => {
                                         }, 0);
                                     }}
                                 >
-                                    Contact
+                                    {menuContact.label}
                                 </a>
-                            </li>
-                            <li className="relative group">
-                                <Link
-                                    href={`/${router.locale === "en" ? "jp" : "en"}`}
-                                    locale={false}
-                                >
-                                    <a className="block py-1">
-                                        {router.locale === "en" ? (
-                                            <Image
-                                                src="/images/icons/japan.png"
-                                                width={32}
-                                                height={32}
-                                                priority
-                                            />
-                                        ) : (
-                                            <Image
-                                                src="/images/icons/united-states-of-america.png"
-                                                width={32}
-                                                height={32}
-                                                priority
-                                            />
-                                        )}
-                                    </a>
-                                </Link>
                             </li>
                         </ul>
                     </div>
                     <div className="flex space-x-5 items-center">
-                        <Link href={`/${router.locale === "en" ? "jp" : "en"}`} locale={false}>
-                            <a className="block md:hidden">
-                                {router.locale === "en" ? (
-                                    <Image
-                                        src="/images/icons/japan.png"
-                                        width={32}
-                                        height={32}
-                                        priority
-                                    />
-                                ) : (
-                                    <Image
-                                        src="/images/icons/united-states-of-america.png"
-                                        width={32}
-                                        height={32}
-                                        priority
-                                    />
-                                )}
-                            </a>
-                        </Link>
                         <button
                             id="menu-switch"
                             className={styles["menu-switch"]}

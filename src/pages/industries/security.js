@@ -13,9 +13,8 @@ const Security = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Security Industry",
-                        description:
-                            "Wherever your business goes, whoever it works with, you need cybersecurity that covers it all",
+                        title: `${security.title}`,
+                        description: `${security.description}`,
                         url: "https://seta-international.com/industries/security/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,9 +22,8 @@ const Security = () => {
             </Suspense>
             <Banner
                 image="banner/security.jpg"
-                title="Security Industry"
-                description="Wherever your business goes, whoever it works with, you need
-                cybersecurity that covers it all"
+                title={security.title}
+                description={security.description}
             />
             <section className="section">
                 <div className="max-w-7xl mx-auto px-5">
@@ -68,58 +66,24 @@ const Security = () => {
                         <p className="section__desc">{security.stories.description}</p>
                     </div>
                     <div className="grid md:grid-cols-2 gap-8">
-                        <div>
-                            <Link href="/case-study/trend-micro">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/trendingmicro/3.jpg"
-                                        alt="Trend Micro"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        Trend Micro
-                                    </h3>
-                                    <p>
-                                        As a global leader in cloud security, Trend Micro develops
-                                        Internet content security and threat management solutions
-                                        that make the world safe for businesses and consumers to
-                                        exchange digital information. With more than 20 years of
-                                        experience, Trend Micro is recognized as the market leader
-                                        in server security for delivering top-ranked client, server,
-                                        and cloud-based security solutions that stop threats faster
-                                        and protect data in physical, virtualized, and cloud
-                                        environments.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
-                        <div>
-                            <Link href="/case-study/veritone">
-                                <a>
-                                    <img
-                                        loading="lazy"
-                                        src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/veritone.jpg"
-                                        alt="Veritone"
-                                        className="mx-auto w-full object-cover h-60 lg:h-96"
-                                    />
-                                    <h3 className="font-bold text-[#2C5282] text-xl my-6">
-                                        Veritone
-                                    </h3>
-                                    <p>
-                                        Veritone is one of top AI companies focusing on
-                                        democratizing AI and enabling every organization and every
-                                        person with the power of AI. What started in 2014 with the
-                                        idea of providing unified access to hundreds of cognitive
-                                        engines through one common software infrastructure, evolved
-                                        to the world’s first AI operating system, aiWARE, which
-                                        orchestrates a diverse ecosystem of cognitive engines to
-                                        power intelligent automation for both commercial and
-                                        government organizations.
-                                    </p>
-                                </a>
-                            </Link>
-                        </div>
+                        {security.stories.items.map((item, index) => (
+                            <div>
+                                <Link href={item.path}>
+                                    <a>
+                                        <img
+                                            loading="lazy"
+                                            src={item.thumbnailUrl}
+                                            alt={item.name}
+                                            className="mx-auto w-full object-cover h-60 lg:h-96"
+                                        />
+                                        <h3 className="font-bold text-[#2C5282] text-xl my-6">
+                                            {item.name}
+                                        </h3>
+                                        <p>{item.content}</p>
+                                    </a>
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

@@ -5,12 +5,12 @@ import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
-import { OUR_PORTFOLIO } from "@/data";
 import useTrans from "@/hooks/useTranslate";
 import Image from "next/image";
 
 const OurPortfolios = () => {
     const {
+        btn,
         home: { portfolio },
     } = useTrans();
 
@@ -49,7 +49,7 @@ const OurPortfolios = () => {
                     </Swiper>
                     <div className="text-center mt-10">
                         <Link href="/case-study">
-                            <a className="portfolio__btn">VIEW ALL CASE STUDIES</a>
+                            <a className="portfolio__btn">{btn.viewAllCaseStudies}</a>
                         </Link>
                     </div>
                 </div>

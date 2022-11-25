@@ -13,9 +13,8 @@ const Panavision = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Panavision",
-                        description:
-                            "The Panavision brand has been one of Hollywood's signature brands when it to film image acquisition.",
+                        title: `${panavision.title}`,
+                        description: `${panavision.description}`,
                         url: "https://seta-international.com/case-study/panavision/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

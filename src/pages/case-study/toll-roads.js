@@ -12,20 +12,14 @@ const Tollroads = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - The Toll Roads",
-                        description:
-                            "Offers One-Time-Toll payments, new FasTrak account enrollment and full FasTrak account maintenance, including vehicle changes, payments, toll history and transponder maintenance.",
+                        title: `${tollroads.title}`,
+                        description: `${tollroads.description}`,
                         url: "https://seta-international.com/case-study/toll-roads",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
             </Suspense>
-            <BannerCaseStudy
-                title="About The Toll Roads"
-                description="Offers One-Time-Toll payments, new FasTrak account enrollment and full
-                FasTrak account maintenance, including vehicle changes, payments, toll
-                history and transponder maintenance."
-            />
+            <BannerCaseStudy title={tollroads.title} description={tollroads.description} />
             <section className="-mt-20 relative z-10">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="border-8 rounded shadow-lg">

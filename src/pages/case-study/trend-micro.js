@@ -17,24 +17,14 @@ const Trendmicro = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Trend Micro",
-                        description:
-                            "As a global leader in cloud security, Trend Micro develops Internet content security and threat management solutions that make the world safe for businesses and consumers to exchange digital information. With more than 20 years of experience, Trend Micro is recognized as the market leader in server security for delivering top-ranked client, server, and cloud-based security solutions that stop threats faster and protect data in physical, virtualized, and cloud environments.",
+                        title: `${trendmicro.title}`,
+                        description: `${trendmicro.description}`,
                         url: "https://seta-international.com/case-study/trend-micro",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
             </Suspense>
-            <BannerCaseStudy
-                title="About Trend Micro"
-                description="As a global leader in cloud security, Trend Micro develops Internet content
-                security and threat management solutions that make the world safe for
-                businesses and consumers to exchange digital information. With more than 20
-                years of experience, Trend Micro is recognized as the market leader in
-                server security for delivering top-ranked client, server, and cloud-based
-                security solutions that stop threats faster and protect data in physical,
-                virtualized, and cloud environments."
-            />
+            <BannerCaseStudy title={trendmicro.title} description={trendmicro.description} />
             <section className="-mt-20 relative z-10">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="border-8 rounded shadow-lg">
@@ -77,8 +67,7 @@ const Trendmicro = () => {
                                 {trendmicro.challenge.title}
                             </h2>
                             <p className="text-[#2A4365] leading-7 mt-8">
-                                Trend Micro needs a strong partner with extensive experience and
-                                knowledge in security to augment their internal teams.
+                                {trendmicro.challenge.description}
                             </p>
                         </div>
                         <div>
@@ -105,7 +94,7 @@ const Trendmicro = () => {
                         {trendmicro.solution.description}
                         <br />
                         <br />
-                        See one example at{" "}
+                        See one example at
                         <Link href="https://whatsyourstory.trendmicro.com">
                             https://whatsyourstory.trendmicro.com
                         </Link>

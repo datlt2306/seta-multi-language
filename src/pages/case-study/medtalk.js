@@ -12,19 +12,14 @@ const Medtalk = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - MedTalk",
-                        description:
-                            "MedTalk was a pioneer startup in developing healthcare applications for some big hospitals in the US. It was founded by two well-known doctors.",
+                        title: `${medtalk.title}`,
+                        description: `${medtalk.description}`,
                         url: "https://seta-international.com/case-study/medtalk/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
             </Suspense>
-            <BannerCaseStudy
-                title="About MedTalk"
-                description="MedTalk was a pioneer startup in developing healthcare applications for some
-                big hospitals in the US. It was founded by two well-known doctors."
-            />
+            <BannerCaseStudy title={medtalk.title} description={medtalk.description} />
             <section className="-mt-20 relative z-10">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="border-8 rounded shadow-lg">

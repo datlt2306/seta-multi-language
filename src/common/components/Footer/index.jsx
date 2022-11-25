@@ -122,27 +122,6 @@ const Footer = () => {
                                         </Link>
                                     </li>
                                 ))}
-                                <li>
-                                    <Link href="/about/culture">
-                                        <a className="text-gray-300 font-light hover:underline">
-                                            Culture
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="/about/location">
-                                        <a className="text-gray-300 font-light hover:underline">
-                                            Location
-                                        </a>
-                                    </Link>
-                                </li>
-                                <li>
-                                    <Link href="https://blog.seta-international.com">
-                                        <a className="text-gray-300 font-light hover:underline">
-                                            Seta Insight
-                                        </a>
-                                    </Link>
-                                </li>
                                 <li className="text-white">
                                     <div className="flex space-x-4 py-3 mt-3">
                                         <Link href="https://www.facebook.com/SETA.International.VIETNAM">

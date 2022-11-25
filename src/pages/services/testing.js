@@ -18,9 +18,8 @@ const TestingPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Testing Service",
-                        description:
-                            "SETA International’s testing services aim to help you avoid any potential damages that can result in a fallout costing you both hard-won users and profits.",
+                        title: `${testing.title}`,
+                        description: `${testing.description}`,
                         url: "https://seta-international.com/services/testing/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

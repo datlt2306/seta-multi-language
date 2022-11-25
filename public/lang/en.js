@@ -168,6 +168,9 @@ export default {
             ],
         },
     ],
+    menuContact: {
+        label: "Contact",
+    },
     menuOurSourcing: {
         heading: "Outsourcing Services",
         menus: [
@@ -260,6 +263,7 @@ export default {
     btn: {
         letTalk: "Let's Talk",
         viewMore: "View more",
+        viewAllCaseStudies: "View All Case Studies",
     },
     home: {
         title: "SETA International - Digital Transformation",

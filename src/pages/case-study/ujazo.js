@@ -12,9 +12,8 @@ const Ujazo = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Ujazo",
-                        description:
-                            "Ujazo was established with one primary mission – Help consumers be aware of their health status and lean how to improve the areas that needs more attention",
+                        title: `${ujazo.title}`,
+                        description: `${ujazo.description}`,
                         url: "https://seta-international.com/case-study/ujazo/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

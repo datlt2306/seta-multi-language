@@ -16,9 +16,8 @@ const Restaurant = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - The Restaurant Expert (TRE)",
-                        description:
-                            "Restaurant Systems Pro, an online restaurant management software, was developed from the ground up for independent restaurants by TheRestaurantExpert.com, a restaurant training and coaching company. A restaurant is one of the most difficult businesses to run, but it can be rewarding and profitable if you apply the right systems in your operations. That is what we provide you – the right systems.",
+                        title: `${restaurant.title}`,
+                        description: `${restaurant.description}`,
                         url: "https://seta-international.com/case-study/restaurant/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

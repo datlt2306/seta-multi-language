@@ -13,9 +13,8 @@ const Ai = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Next-Gen Technology - Every Company Will Become An AI Company",
-                        description:
-                            "AI is augmenting and possibly replacing human activities while dramatically speeding up development of the final product. AI is already as good as or better than humans at certain applications. Businesses should focus on incorporating the technology into work processes to accelerate productivity. Let SETA help you at every step of business transformation with AI.",
+                        title: `${ai.title}`,
+                        description: `${ai.description}`,
                         url: "https://seta-international.com/next-gen/ai/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

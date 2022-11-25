@@ -13,9 +13,8 @@ const Automotive = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Energy Industry",
-                        description:
-                            "We have services to match your business needs, from energy and sustainability advice to managing the lifecycle of your assets",
+                        title: `${energy.title}`,
+                        description: `${energy.description}`,
                         url: "https://seta-international.com/industries/energy/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,8 +22,8 @@ const Automotive = () => {
             </Suspense>
             <Banner
                 image="banner/energy.jpg"
-                title="Energy Industry"
-                description="We have services to match your business needs, from energy and sustainability advice to managing the lifecycle of your assets"
+                title={energy.title}
+                description={energy.description}
             />
 
             <section className="section">

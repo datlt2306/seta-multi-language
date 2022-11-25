@@ -14,24 +14,14 @@ const Avia = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - AVIA",
-                        description:
-                            'AVIA is a first of its kind, real time, digital charter marketplace, marrying the latest in technology with traditional boutique customer service. ​AVIA proprietary technology specializes in connecting nominally priced, zero passenger, positioning flights with financially savvy passengers. These "empty legs" can be sold at pennies on the dollar and finally bridge the cost gap between a business class commercial flight and a true private charter experience',
+                        title: `${avia.title}`,
+                        description: `${avia.description}`,
                         url: "https://seta-international.com/case-study/avia/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
             </Suspense>
-            <BannerCaseStudy
-                title="About AVIA"
-                description='AVIA is a first of its kind, real time, digital charter marketplace,
-                marrying the latest in technology with traditional boutique customer
-                service. ​AVIA proprietary technology specializes in connecting nominally
-                priced, zero passenger, positioning flights with financially savvy
-                passengers. These "empty legs" can be sold at pennies on the
-                dollar and finally bridge the cost gap between a business class commercial
-                flight and a true private charter experience'
-            />
+            <BannerCaseStudy title={avia.title} description={avia.description} />
             <section className="-mt-20 relative z-10">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="border-8 rounded shadow-lg">

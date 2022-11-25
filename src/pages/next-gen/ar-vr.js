@@ -8,15 +8,14 @@ import React, { Suspense } from "react";
 import dynamic from "next/dynamic";
 const Banner = dynamic(() => import("@/common/components/Banner"));
 const Arvr = () => {
-    const { arvr } = useTrans();
+    const { btn, arvr } = useTrans();
     return (
         <>
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Next-Gen Technology - AR/VR (Augmented Reality/Virtual Reality)",
-                        description:
-                            "AR/VR (Augmented Reality/Virtual Reality) are blurring lines between which is real and which is a computer-generated illusion. AR/VR has potentially transformed how we play, work, learn, and communicate. While VR fully immerses users into 3D virtual environments, AR gets computer-generated images and overlays them on your view of the world. Let SETA help you to move into the fourth transformation and build a metaverse for your company.",
+                        title: `${arvr.title}`,
+                        description: `${arvr.description}`,
                         url: "https://seta-international.com/next-gen/ar-vr/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -71,16 +70,15 @@ const Arvr = () => {
                         <div className="order-2 md:order-1">
                             <h3 className="inline-block border-b border-[#2C5282] text-[#2C5282] hover:text-[#E53E3E] text-xl mb-6 pb-3">
                                 <Link href="/case-study/sk-planet">
-                                    <a className="uppercase">SK Planet</a>
+                                    <a className="uppercase">{arvr.stories.items[0].name}</a>
                                 </Link>
                             </h3>
                             <p className="text-lg text-[#2A4365]">
-                                SK Planet developed a training programme for their employees using
-                                VR headsets before they did their real work.
+                                {arvr.stories.items[0].content}
                             </p>
                             <Link href="/case-study/sk-planet">
                                 <a className="case-study__btn">
-                                    View more
+                                    {btn.viewMore}
                                     <ViewMoreIcon />
                                 </a>
                             </Link>
@@ -110,16 +108,15 @@ const Arvr = () => {
                         <div>
                             <h3 className="inline-block border-b border-[#2C5282] text-[#2C5282] hover:text-[#E53E3E] text-xl mb-6 pb-3">
                                 <Link href="/case-study/motion-global" className="uppercase">
-                                    Motion Global
+                                    {arvr.stories.items[1].name}
                                 </Link>
                             </h3>
                             <p className="text-lg text-[#2A4365]">
-                                MotionGlobal allows users to try on glasses via augmented reality,
-                                without having to go to real stores. See more details at
+                                {arvr.stories.items[1].content}
                             </p>
                             <Link href="/case-study/motion-global">
                                 <a className="case-study__btn">
-                                    View more
+                                    {btn.viewMore}
                                     <ViewMoreIcon />
                                 </a>
                             </Link>

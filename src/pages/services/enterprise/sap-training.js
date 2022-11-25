@@ -13,9 +13,8 @@ const SapTrainingPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "SAP Training & Educational Services",
-                        description:
-                            "From project preparation to online e-learning, from building internal IT team to new employee training, SETA International corporate training and personal educational consulting services can meet different types of user training required for the intelligent enterprise.",
+                        title: `${sapTraining.title}`,
+                        description: `${sapTraining.description}`,
                         url: "https://seta-international.com/services/enterprise/sap-training/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

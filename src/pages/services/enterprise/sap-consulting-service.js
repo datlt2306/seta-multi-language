@@ -13,9 +13,8 @@ const SapConsultingServicesPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "SAP Consulting Service",
-                        description:
-                            " Our numerous and diverse SAP consulting services are specially tailored to the client’s business operations and field of industry because they are provided by specialized consultants.",
+                        title: `${sapConsulting.title}`,
+                        description: `${sapConsulting.description}`,
                         url: "https://seta-international.com/services/enterprise/sap-consulting-service/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

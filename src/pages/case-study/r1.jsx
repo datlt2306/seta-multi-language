@@ -13,9 +13,8 @@ const R1 = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - R1 Concept",
-                        description:
-                            "R1 Concepts is a leading manufacturer and retailer of automotive OEM and aftermarket high-performance brake parts.  They engaged with SETA to build a comprehensive, custom e-commerce and inventory and order management solution to replace their existing system.",
+                        title: `${r1.title}`,
+                        description: `${r1.description}`,
                         url: "https://seta-international.com/case-study/r1",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

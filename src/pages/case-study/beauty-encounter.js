@@ -15,9 +15,8 @@ const BeautyEncounter = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Beauty Encounter",
-                        description:
-                            "Beauty Encounter is a premier online source for fragrances and beauty products that offers consumers an exceptional range of hard-to-find, international and specialty products including men and women’s fragrances, skincare, cosmetics, hair care, and beauty accessories. With more than 1,100 unique brands and new products added daily, customers have access to exceptional customer service and secure online shopping. In addition to thousands of beauty products that can be purchased at affordable prices, Beauty Encounter shoppers find unique sections with tips, trends and techniques.",
+                        title: `${beautyEncounter.title}`,
+                        description: `${beautyEncounter.description}`,
                         url: "https://seta-international.com/case-study/beauty-encounter/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

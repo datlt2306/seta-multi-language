@@ -14,9 +14,8 @@ const SapImplementServices = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "SAP Implementation Services",
-                        description:
-                            "Whether it’s a full-scale SAP ERP Implementation enabling a specific component, or performing a system upgrade, many of our clients select us as their implementer for our deep functional expertise, industry-specific knowledge, and our Leading Practices methodology.",
+                        title: `${sapImplement.title}`,
+                        description: `${sapImplement.description}`,
                         url: "https://seta-international.com/services/enterprise/sap-implement-service/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

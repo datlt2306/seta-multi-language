@@ -13,9 +13,8 @@ const Stelux = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Stelux",
-                        description:
-                            "Stelux is one of the leading manufacturers, retail and wholesale in the industrial luxury watch and optical with a long established wholesale business presence in Hong Kong, Singapore and Malaysia",
+                        title: `${stelux.title}`,
+                        description: `${stelux.description}`,
                         url: "https://seta-international.com/case-study/stelux/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -62,11 +61,8 @@ const Stelux = () => {
                 className="section bg-cover"
             >
                 <div className="max-w-7xl mx-auto px-5 text-center flex flex-col items-center">
-                    <h2 className="text-white text-5xl font-bold">Solution</h2>
-                    <p className="text-white text-lg mt-5">
-                        SETA was able to provide many high-quality resources to support the
-                        development
-                    </p>
+                    <h2 className="text-white text-5xl font-bold">{stelux.solution.title}</h2>
+                    <p className="text-white text-lg mt-5">{stelux.solution.description}</p>
                 </div>
             </div>
             {/*End .services*/}
@@ -81,13 +77,7 @@ const Stelux = () => {
                                 className="mx-auto"
                             />
                         </div>
-                        <p className="leading-7">
-                            SETA was able to provide many high-quality dedicated resources to work
-                            on SAP HANA, SAP Mobile Platform project for Warehouse Management
-                            module, and development consulting for Financial (FI) and Sales and
-                            Distribution (SD) modules. SETA also provides training and technology
-                            transfer for the local IT department on SAP Mobile Platform project.
-                        </p>
+                        <p className="leading-7">{stelux.testimonial.content}</p>
                     </div>
                 </div>
             </div>

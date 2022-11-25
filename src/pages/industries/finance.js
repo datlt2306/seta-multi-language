@@ -13,9 +13,8 @@ const Finance = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Finance Industry",
-                        description:
-                            "Accelerate the pace of digital innovation and welcome a new era of finance software development with Intellias. You ask for a new tech solution. We deliver a full-scale product development strategy, underpinned by the latest tech innovations in the financial sector (AI, ML, big data), and bring in our deep domain expertise as a trusted financial software development partner.",
+                        title: `${finance.title}`,
+                        description: `${finance.description}`,
                         url: "https://seta-international.com/industries/finance/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,13 +22,8 @@ const Finance = () => {
             </Suspense>
             <Banner
                 image="banner/finance.jpg"
-                title="Finance Industry"
-                description="Accelerate the pace of digital innovation and welcome a new era of
-                finance software development with Intellias. You ask for a new tech
-                solution. We deliver a full-scale product development strategy,
-                underpinned by the latest tech innovations in the financial sector (AI,
-                ML, big data), and bring in our deep domain expertise as a trusted
-                financial software development partner."
+                title={finance.title}
+                description={finance.description}
             />
             <section className="section">
                 <div className="max-w-7xl mx-auto px-5">

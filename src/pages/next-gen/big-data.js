@@ -13,9 +13,8 @@ const BigData = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Next-Gen Technology - Big Data",
-                        description:
-                            "Every company, no matter big or small, needs valuable data and insights. Using Big Data has been crucial for many leading companies to outperform the competition. In many industries, new entrants and established competitors use data-driven strategies to compete, capture and innovate. SETA will help you to present data effectively, properly analyze data, and give you competitive edges over other companies.",
+                        title: `${bigData.title}`,
+                        description: `${bigData.description}`,
                         url: "https://seta-international.com/next-gen/big-data/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -23,13 +22,8 @@ const BigData = () => {
             </Suspense>
             <Banner
                 image="banner/bigdata/1.jpg"
-                title="Big Data"
-                description="Every company, no matter big or small, needs valuable data and insights.
-                Using Big Data has been crucial for many leading companies to outperform
-                the competition. In many industries, new entrants and established
-                competitors use data-driven strategies to compete, capture and innovate.
-                SETA will help you to present data effectively, properly analyze data,
-                and give you competitive edges over other companies."
+                title={bigData.title}
+                description={bigData.description}
             />
 
             <section className="section">

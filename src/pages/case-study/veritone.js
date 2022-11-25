@@ -12,9 +12,8 @@ const Veritone = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Veritone",
-                        description:
-                            "Veritone is one of top AI companies focusing on democratizing AI and enabling every organization and every person with the power of AI. What started in 2014 with the idea of providing unified access to hundreds of cognitive engines through one common software infrastructure, evolved to the world’s first AI operating system, aiWARE, which orchestrates a diverse ecosystem of cognitive engines to power intelligent automation for both commercial and government organizations.",
+                        title: `${veritone.title}`,
+                        description: `${veritone.description}`,
                         url: "https://seta-international.com/case-study/veritone",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}

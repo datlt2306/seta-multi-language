@@ -16,9 +16,8 @@ const EmbeddedSystemPage = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Embeded Solution Service",
-                        description:
-                            "Industry is changing. Businesses are digitizing and networking systems across all sectors – and making these systems as autonomous as possible. While the opportunities and potential of this transformation are great, it also leads to ever-increasing functional safety requirements.",
+                        title: `${embedded.title}`,
+                        description: `${embedded.description}`,
                         url: "https://seta-international.com/services/embedded-system/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -26,11 +25,8 @@ const EmbeddedSystemPage = () => {
             </Suspense>
             <Banner
                 image="banner/embedded-system.jpg"
-                title="Embeded Solution Service"
-                description="Industry is changing. Businesses are digitizing and networking systems
-                across all sectors – and making these systems as autonomous as possible.
-                While the opportunities and potential of this transformation are great,
-                it also leads to ever-increasing functional safety requirements."
+                title={embedded.title}
+                description={embedded.description}
             />
             <section className="section">
                 <div className="max-w-7xl mx-auto px-5">
@@ -182,12 +178,8 @@ const EmbeddedSystemPage = () => {
             <section className="bg-gray-100 section">
                 <div className="max-w-7xl mx-auto px-5">
                     <div className="text-center pb-10">
-                        <h2 className="section__title">Our Success Stories</h2>
-                        <p className="section__desc">
-                            Success is no easy accomplishment, but with a trusted partner and an
-                            effective collaboration, success comes to you without harsh tries. With
-                            us!
-                        </p>
+                        <h2 className="section__title">{embedded.stories.title}</h2>
+                        <p className="section__desc">{embedded.stories.description}</p>
                     </div>
                     {embedded.stories.items.map((item, index) => (
                         <div key={index} className="grid md:grid-cols-2 gap-8">

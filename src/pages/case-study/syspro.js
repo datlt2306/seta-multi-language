@@ -14,9 +14,8 @@ const Syspro = () => {
             <Suspense fallback={`Loading...`}>
                 <Seo
                     data={{
-                        title: "Case Study - Syspro",
-                        description:
-                            " SYSPRO is one of the longest standing independent, international vendors of business software solutions and services. With over 30 years&apos; experience in the ERP industry, we have a wealth of knowledge to assist you in configuring a system tailored specifically to your business needs.",
+                        title: `${syspro.title}`,
+                        description: `${syspro.description}`,
                         url: "https://seta-international.com/case-study/syspro/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
@@ -65,8 +64,8 @@ const Syspro = () => {
                         {syspro.solution.description}
                         <br />
                         <br />
-                        <Link href="https://us.syspro.com/product/syspro-erp/applications/crm">
-                            See https://us.syspro.com/product/syspro-erp/applications/crm/.
+                        <Link href="https://asia.syspro.com/product/erp-software/">
+                            See https://asia.syspro.com/product/erp-software/
                         </Link>
                     </p>
                 </div>
