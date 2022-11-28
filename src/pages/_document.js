@@ -1,5 +1,10 @@
 import { Html, Head, Main, NextScript } from "next/document";
 import Script from "next/script";
+import { Roboto } from "@next/font/google";
+const roboto = Roboto({
+    weight: "400",
+    subsets: ["latin"],
+});
 
 import React from "react";
 import { GA_TRACKING_ID } from "@/lib/gtag";
@@ -28,7 +33,7 @@ export default function Document() {
                     }}
                 />
             </Head>
-            <body>
+            <body className={roboto.className}>
                 <Main />
                 <NextScript />
             </body>

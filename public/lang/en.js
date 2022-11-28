@@ -1527,6 +1527,340 @@ export default {
                 "Supervision consultancy and implementation.",
             ],
         },
+        magento: {
+            title: "Magento Development Services",
+            description: "The only team you'll ever need to help your e-commerce business succeed",
+            offer: {
+                title: "What We Offer?",
+                items: [
+                    {
+                        id: 1,
+                        name: "Magento Website Development",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/1.jpg",
+                        description:
+                            "Without writing a single line of code, you can create a brand-new Magento store that is ready to produce cash. The initial consultation is FREE.",
+                    },
+                    {
+                        id: 2,
+                        name: "Magento Custom Development",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/2.jpg",
+                        description:
+                            "Full-cycle Magento development tailored to your specific business requirements. Let our certified developers implement your ideas in a high-quality manner. We guarantee excellent service, a quick time to market, and the best price-to-performance ratio.",
+                    },
+                    {
+                        id: 3,
+                        name: "Server Configuration and Migration Service",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/3.jpg",
+                        description:
+                            "Magento server configuration is a complex process that requires deep technical knowledge. To ensure your website functions quickly and smoothly, the dedicated team of specialists will configure your server or migrate it to a new server.",
+                    },
+                    {
+                        id: 4,
+                        name: "Magento Mobile Application Development",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/4.jpg",
+                        description:
+                            "Contact us to create a mobile app that meets your requirements. Using our experience in Magento, cross-platform, and native app development, we will discover the perfect solution for you.",
+                    },
+                    {
+                        id: 5,
+                        name: "Magento SEO Support",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/5.jpg",
+                        description:
+                            "Get an SEO-optimized website and a plan for ongoing improvement based on a complete analysis of your store - rank at the top of Google search results.",
+                    },
+                    {
+                        id: 6,
+                        name: "Magento Integration Service",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/6.jpg",
+                        description:
+                            "Integrate Magento 2 with CRM systems, analytics tools, payment solutions, and marketplaces such as Amazon, eBay, and Facebook Shop.",
+                    },
+                ],
+            },
+            success: {
+                title: "A TRUSTWORTHY PARTNER FOR YOUR MAGENTO-POWERED BUSINESS ",
+            },
+            stories: {
+                title: "Our Success Stories",
+            },
+
+            MAGENTO_SUCCESS_STORIES: [
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/1.jpg",
+                    name: "CASYNET",
+                    desc: "E-commerce system for motorbikes and cars",
+                    type: "transportation",
+                    path: "https://casynet.com",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/2.jpg",
+                    name: "HAPPYNEST",
+                    desc: "Furniture",
+                    type: "architectureinterior",
+                    path: "https://happynest.vn/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/3.jpg",
+                    name: "COACH",
+                    desc: "Fashion",
+                    type: "fashion",
+                    path: "https://taiwan.coach.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/4.jpg",
+                    name: "H&M",
+                    desc: "Fashion",
+                    type: "fashion",
+                    path: "https://th.hm.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/5.jpg",
+                    name: "SARI",
+                    desc: "Real estate information network",
+                    type: "real-eastate",
+                    path: "https://sari.vn/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/6.jpg",
+                    name: "GRAPEOFF",
+                    desc: "Wine & Champagne",
+                    type: "fb",
+                    path: "https://www.grapeoff.jp/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/7.jpg",
+                    name: "BISTROVINOCELLARS",
+                    desc: "Wine & Champagne",
+                    type: "fb",
+                    path: "https://www.bistrovinocellars.jp/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/8.jpg",
+                    name: "MASTERCELLAR",
+                    desc: "Wine & Champagne",
+                    type: "fb",
+                    path: "https://www.mastercellar.jp/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/9.jpg",
+                    name: "WTM360",
+                    desc: "Booking tickets",
+                    type: "mediaEntertaiment",
+                    path: "https://wtm360.co.uk/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/10.jpg",
+                    name: "LOCALCONNEXT",
+                    desc: "Booking gym service",
+                    type: "heathBeauty",
+                    path: "http://localconnext.com",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/11.jpg",
+                    name: "THINLABS",
+                    desc: "Computer equipment",
+                    type: "retail",
+                    path: "https://thinlabs.vugiasoftware.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/12.jpg",
+                    name: "ELOGEXPRESS",
+                    desc: "Bill of lading management",
+                    type: "transportation",
+                    path: "http://elogexpress.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/13.jpg",
+                    name: "AMAZINGRAZE",
+                    desc: "Selling Snacks",
+                    type: "fb",
+                    path: "https://www.amazingraze.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/14.jpg",
+                    name: "SHOPBIGBADWOLF",
+                    desc: "Book Store",
+                    type: "retail",
+                    path: "https://my.bbwbooks.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/15.jpg",
+                    name: "SB & KONCEPT FURNITURE",
+                    desc: "SB Design Square furniture and home decoration",
+                    type: "architectureInterior",
+                    path: "https://www.sbdesignsquare.com/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/16.jpg",
+                    name: "ROHTO",
+                    desc: "Skincare product",
+                    type: "healthBeauty",
+                    path: "https://shop.rohto.com.vn/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/18.jpg",
+                    name: "PIAS",
+                    desc: "Beauty products",
+                    type: "healthBeauty",
+                    path: "https://standard.integration-5ojmyuq-wnyohl5wbi5xi.ap-3.magentosite.cloud/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/19.jpg",
+                    name: "PARKSON",
+                    desc: "Shop For Womens, Mens & Kids Clothes, Beauty",
+                    type: "fashion",
+                    path: "https://parksononline.com.my/",
+                },
+                {
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/20.jpg",
+                    name: "BEST EASTERN",
+                    desc: "Books, Toys, and More",
+                    type: "retail",
+                    path: "https://shopbesteastern.com/",
+                },
+            ],
+            MAGENTO_WHAT_WE_OFFERING: [
+                {
+                    id: 1,
+                    title: "Magento Website Development",
+                    desc: "Without writing a single line of code, you can create a brand-new Magento store that is ready to produce cash. The initial consultation is FREE.",
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/1.jpg",
+                },
+                {
+                    id: 2,
+                    title: "Magento Custom Development",
+                    desc: "Full-cycle Magento development tailored to your specific business requirements. Let our certified developers implement your ideas in a high-quality manner. We guarantee excellent service, a quick time to market, and the best price-to-performance ratio.",
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/2.jpg",
+                },
+                {
+                    id: 3,
+                    title: "Server Configuration and Migration Service",
+                    desc: "Magento server configuration is a complex process that requires deep technical knowledge. To ensure your website functions quickly and smoothly, the dedicated team of specialists will configure your server or migrate it to a new server.",
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/3.jpg",
+                },
+                {
+                    id: 4,
+                    title: "Magento Mobile Application Development",
+                    desc: "Contact us to create a mobile app that meets your requirements. Using our experience in Magento, cross-platform, and native app development, we will discover the perfect solution for you.",
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/4.jpg",
+                },
+                {
+                    id: 5,
+                    title: "Magento SEO Support",
+                    desc: "Get an SEO-optimized website and a plan for ongoing improvement based on a complete analysis of your store - rank at the top of Google search results.",
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/5.jpg",
+                },
+                {
+                    id: 6,
+                    title: "Magento Integration Service",
+                    desc: "Integrate Magento 2 with CRM systems, analytics tools, payment solutions, and marketplaces such as Amazon, eBay, and Facebook Shop.",
+                    img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/6.jpg",
+                },
+            ],
+            BUTTONS_ECOMMERCE: [
+                {
+                    id: 1,
+                    name: "All",
+                    value: "all",
+                },
+                {
+                    id: 2,
+                    name: "Transportation",
+                    value: "transportation",
+                },
+                {
+                    id: 3,
+                    name: "Architecture & Interior",
+                    value: "architectureInterior",
+                },
+                {
+                    id: 4,
+                    name: "Fashion",
+                    value: "fashion",
+                },
+                {
+                    id: 5,
+                    name: "Real Estate",
+                    value: "real-eastate",
+                },
+                {
+                    id: 6,
+                    name: "F & B",
+                    value: "fb",
+                },
+                {
+                    id: 7,
+                    name: "Media & Entertainment",
+                    value: "mediaEntertaiment",
+                },
+                {
+                    id: 8,
+                    name: "Health & Beauty",
+                    value: "healthBeauty",
+                },
+                {
+                    id: 9,
+                    name: "Retail",
+                    value: "retail",
+                },
+            ],
+        },
+        saleforce: {
+            title: "Salesforce Service",
+            description:
+                "We assist customers from all around the world in determining the fittest Salesforce solutions and feature combination for driving business transformation. We develop the proper method and combination of middleware and APIs to integrate these solutions with on-premises applications using our extensive engineering knowledge.",
+            offer: {
+                title: "What We Offer?",
+                items: [
+                    {
+                        id: 1,
+                        name: "Salesforce Consulting",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/sale-force/1.jpg",
+                        description:
+                            "Get the most out of your Salesforce investment. Our agile strategy allows you to work with local experts and benefit from our worldwide delivery knowledge. We can provide the right resources for your business transformation goals, regardless of your sector or project size.",
+                    },
+                    {
+                        id: 2,
+                        name: "Salesforce Custom Development",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/sale-force/2.jpg",
+                        description:
+                            "With our highly skilled development team&apos;s experience, we can take your Salesforce platform to the next level.",
+                    },
+                    {
+                        id: 3,
+                        name: "Salesforce Integration",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/services/sale-force/3.jpg",
+                        description:
+                            "Integrate Salesforce to your existing infrastructure in a more efficient manner. Our specialists know how to connect your services the best manner possible, whether it&apos;s through middleware or direct connections. To future-proof your business, build and execute integration processes the proper way.",
+                    },
+                ],
+            },
+            stories: {
+                title: "Our Success Stories",
+                description:
+                    "Success is no easy accomplishment, but with a trusted partner and an effective collaboration, success comes to you without harsh tries. With us!",
+                items: [
+                    {
+                        id: 1,
+                        name: "Veritone",
+                        path: "case-study/veritone",
+                        thumbnailUrl:
+                            "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/veritone.jpg",
+                        description:
+                            "The Admin and Marketing teams want to manage and observe the Media Campaign data, so a system with tons of standard functions and also easy to customize is needed. Veritone's Salesforce system is developed with standard and customized objects management functions and intergrates Veritone Core system for data migration. Solutions: Sales Cloud, Service Cloud, REST API.",
+                    },
+                ],
+            },
+        },
     },
     ai: {
         title: "Every company will become an AI company",
