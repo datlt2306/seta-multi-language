@@ -169,7 +169,7 @@ export default {
         },
     ],
     menuContact: {
-        label: "Contact",
+        label: "お問い合わせ",
     },
     menuOurSourcing: {
         heading: "アウトソーシング・サービス",
@@ -211,30 +211,30 @@ export default {
         ],
     },
     menuAboutUs: {
-        heading: "About Us",
+        heading: "会社概要",
         menus: [
             {
-                label: "Culture",
+                label: "文化",
                 path: "/about/culture",
             },
             {
-                label: "Location",
+                label: "場所",
                 path: "/about/location",
             },
             {
-                label: "Seta Insight",
+                label: "SETA インサイト",
                 path: "https://blog.seta-international.com",
                 icon: "/images/icons/papers.png",
             },
         ],
     },
     menuRD: {
-        heading: "R&D",
-        menus: [{ label: "Research & Development", path: "/research-development" }],
+        heading: "研究・開発",
+        menus: [{ label: "研究・開発", path: "/research-development" }],
     },
     menuResourceCenter: {
-        heading: "Resource Center",
-        menus: [{ label: "Case Studies", path: "/case-study" }],
+        heading: "リソースセンター",
+        menus: [{ label: "事例", path: "/case-study" }],
     },
     contact: {
         title: "お問い合わせ",
@@ -263,7 +263,7 @@ export default {
     btn: {
         letTalk: "話しましょう",
         viewMore: "もっと見る",
-        viewAllCaseStudies: "View All Case Studies",
+        viewAllCaseStudies: "全ての事例を見る",
     },
     home: {
         title: "SETA International - デジタルトランスフォーメーション",
@@ -271,10 +271,10 @@ export default {
             "デジタルトランスフォーメーションとデジタルイノベーションによって、各企業のビジネス成長を支援します。",
         banner: [
             {
-                title: "SETA Representative at <br />InfoComm Southeast Asia 2022",
-                time: "2-4 November 2022",
-                location: "Location: Bangkok International Trade and Exhibition Centre",
-                readmore: "Read More",
+                title: "2022年InfoComm Southeast AsiaにおけるSETA代表",
+                time: "2022年11月2日～4日",
+                location: "場所： バンコク国際見本市・展示場",
+                readmore: "もっと見る",
             },
             {
                 title: "2022年<br class='hidden xl:block'>世界技術革新会議(WCIT 2022)における<br class='hidden xl:block'>SETA代表.",
@@ -1515,326 +1515,326 @@ export default {
             ],
         },
         magento: {
-            title: "Magento Development Services",
-            description: "The only team you'll ever need to help your e-commerce business succeed",
+            title: "Magento開発サービス",
+            description: "Eコマースビジネスを成功させるために必要な唯一のチーム",
             offer: {
-                title: "What We Offer?",
+                title: "提供するもの",
                 items: [
                     {
                         id: 1,
-                        name: "Magento Website Development",
+                        name: "Magento ウェブの開発t",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/1.jpg",
                         description:
-                            "Without writing a single line of code, you can create a brand-new Magento store that is ready to produce cash. The initial consultation is FREE.",
+                            "一行もコードを書くことなく、現金を生み出す準備が整った真新しいMagentoストアを作ることができるのです。初回相談は無料です。",
                     },
                     {
                         id: 2,
-                        name: "Magento Custom Development",
+                        name: "Magentoカスタム開発",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/2.jpg",
                         description:
-                            "Full-cycle Magento development tailored to your specific business requirements. Let our certified developers implement your ideas in a high-quality manner. We guarantee excellent service, a quick time to market, and the best price-to-performance ratio.",
+                            "お客様のビジネス要件に合わせたフルサイクルのMagento開発。当社の認定開発者が、お客様のアイデアを高品質で実現します。私たちは、優れたサービス、迅速な市場投入、最高の価格対性能比を保証します。",
                     },
                     {
                         id: 3,
-                        name: "Server Configuration and Migration Service",
+                        name: "サーバー構築・移行サービス",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/3.jpg",
                         description:
-                            "Magento server configuration is a complex process that requires deep technical knowledge. To ensure your website functions quickly and smoothly, the dedicated team of specialists will configure your server or migrate it to a new server.",
+                            "Magento のサーバー構成は、深い技術的知識を必要とする複雑なプロセスです。お客様のウェブサイトを迅速かつ円滑に機能させるため、専任のスペシャリストチームがサーバーの設定や新しいサーバーへの移行を行います。",
                     },
                     {
                         id: 4,
-                        name: "Magento Mobile Application Development",
+                        name: "Magentoモバイルアプリケーション開発",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/4.jpg",
                         description:
-                            "Contact us to create a mobile app that meets your requirements. Using our experience in Magento, cross-platform, and native app development, we will discover the perfect solution for you.",
+                            "お客様のご要望に応じたモバイルアプリを作成するために、私たちにご相談ください。Magento、クロスプラットフォーム、ネイティブアプリの開発経験を生かし、お客様に最適なソリューションをご提案します。",
                     },
                     {
                         id: 5,
-                        name: "Magento SEO Support",
+                        name: "Magento SEOサポート",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/5.jpg",
                         description:
-                            "Get an SEO-optimized website and a plan for ongoing improvement based on a complete analysis of your store - rank at the top of Google search results.",
+                            "SEOに最適化されたウェブサイトと、お店の完全な分析に基づく継続的な改善計画を入手 - Google検索結果の上位にランクされます。",
                     },
                     {
                         id: 6,
-                        name: "Magento Integration Service",
+                        name: "Magentoインテグレーションサービス",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/6.jpg",
                         description:
-                            "Integrate Magento 2 with CRM systems, analytics tools, payment solutions, and marketplaces such as Amazon, eBay, and Facebook Shop.",
+                            "Magento 2 を CRM システム、分析ツール、決済ソリューション、Amazon、eBay、Facebook Shop などのマーケットプレイスと連携させることができます。",
                     },
                 ],
             },
             success: {
-                title: "A TRUSTWORTHY PARTNER FOR YOUR MAGENTO-POWERED BUSINESS ",
+                title: "弊社のマジェントビジネスの信頼できるパートナー。",
             },
             stories: {
-                title: "Our Success Stories",
+                title: "成功事例",
             },
 
             MAGENTO_SUCCESS_STORIES: [
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/1.jpg",
                     name: "CASYNET",
-                    desc: "E-commerce system for motorbikes and cars",
-                    type: "transportation",
+                    desc: "二輪車・四輪車向けECシステム",
+                    type: "交通機関",
                     path: "https://casynet.com",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/2.jpg",
                     name: "HAPPYNEST",
-                    desc: "Furniture",
-                    type: "architectureinterior",
+                    desc: "家具",
+                    type: "建築内部",
                     path: "https://happynest.vn/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/3.jpg",
-                    name: "COACH",
-                    desc: "Fashion",
-                    type: "fashion",
+                    name: "Coach",
+                    desc: "ファッション",
+                    type: "ファッション",
                     path: "https://taiwan.coach.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/4.jpg",
                     name: "H&M",
-                    desc: "Fashion",
-                    type: "fashion",
+                    desc: "ファッション",
+                    type: "ファッション",
                     path: "https://th.hm.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/5.jpg",
                     name: "SARI",
-                    desc: "Real estate information network",
-                    type: "real-eastate",
+                    desc: "不動産情報ネットワーク",
+                    type: "不動産",
                     path: "https://sari.vn/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/6.jpg",
                     name: "GRAPEOFF",
-                    desc: "Wine & Champagne",
+                    desc: "ワイン＆シャンパーニュ",
                     type: "fb",
                     path: "https://www.grapeoff.jp/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/7.jpg",
                     name: "BISTROVINOCELLARS",
-                    desc: "Wine & Champagne",
+                    desc: "ワイン＆シャンパーニュ",
                     type: "fb",
                     path: "https://www.bistrovinocellars.jp/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/8.jpg",
                     name: "MASTERCELLAR",
-                    desc: "Wine & Champagne",
+                    desc: "ワイン＆シャンパーニュ",
                     type: "fb",
                     path: "https://www.mastercellar.jp/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/9.jpg",
                     name: "WTM360",
-                    desc: "Booking tickets",
-                    type: "mediaEntertaiment",
+                    desc: "チケット予約",
+                    type: "メディア・エンタテインメント",
                     path: "https://wtm360.co.uk/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/10.jpg",
                     name: "LOCALCONNEXT",
-                    desc: "Booking gym service",
-                    type: "heathBeauty",
+                    desc: "ジムサービスの予約",
+                    type: "ヘルスビューティ",
                     path: "http://localconnext.com",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/11.jpg",
                     name: "THINLABS",
-                    desc: "Computer equipment",
-                    type: "retail",
+                    desc: "コンピューター機器",
+                    type: "小売",
                     path: "https://thinlabs.vugiasoftware.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/12.jpg",
                     name: "ELOGEXPRESS",
-                    desc: "Bill of lading management",
-                    type: "transportation",
+                    desc: "船荷証券管理",
+                    type: "交通機関",
                     path: "http://elogexpress.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/13.jpg",
                     name: "AMAZINGRAZE",
-                    desc: "Selling Snacks",
+                    desc: "スナック菓子販売",
                     type: "fb",
                     path: "https://www.amazingraze.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/14.jpg",
                     name: "SHOPBIGBADWOLF",
-                    desc: "Book Store",
-                    type: "retail",
+                    desc: "ブックストア",
+                    type: "小売",
                     path: "https://my.bbwbooks.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/15.jpg",
                     name: "SB & KONCEPT FURNITURE",
-                    desc: "SB Design Square furniture and home decoration",
-                    type: "architectureInterior",
+                    desc: "SBデザインスクエア 家具・インテリア",
+                    type: "建築内部",
                     path: "https://www.sbdesignsquare.com/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/16.jpg",
                     name: "ROHTO",
-                    desc: "Skincare product",
-                    type: "healthBeauty",
+                    desc: "スキンケア製品",
+                    type: "ヘルスビューティ",
                     path: "https://shop.rohto.com.vn/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/18.jpg",
                     name: "PIAS",
-                    desc: "Beauty products",
-                    type: "healthBeauty",
+                    desc: "ビューティ製品",
+                    type: "ヘルスビューティ",
                     path: "https://standard.integration-5ojmyuq-wnyohl5wbi5xi.ap-3.magentosite.cloud/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/19.jpg",
                     name: "PARKSON",
-                    desc: "Shop For Womens, Mens & Kids Clothes, Beauty",
-                    type: "fashion",
+                    desc: "レディース、メンズ、キッズの洋服、美容グッズを扱うショップ。",
+                    type: "ファッション",
                     path: "https://parksononline.com.my/",
                 },
                 {
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/success-stories/20.jpg",
                     name: "BEST EASTERN",
-                    desc: "Books, Toys, and More",
-                    type: "retail",
+                    desc: "本・おもちゃ・その他",
+                    type: "小売",
                     path: "https://shopbesteastern.com/",
                 },
             ],
             MAGENTO_WHAT_WE_OFFERING: [
                 {
                     id: 1,
-                    title: "Magento Website Development",
-                    desc: "Without writing a single line of code, you can create a brand-new Magento store that is ready to produce cash. The initial consultation is FREE.",
+                    title: "Magento ウェブの開発",
+                    desc: "一行もコードを書くことなく、現金を生み出す準備が整った真新しいMagentoストアを作ることができるのです。初回相談は無料です。",
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/1.jpg",
                 },
                 {
                     id: 2,
-                    title: "Magento Custom Development",
-                    desc: "Full-cycle Magento development tailored to your specific business requirements. Let our certified developers implement your ideas in a high-quality manner. We guarantee excellent service, a quick time to market, and the best price-to-performance ratio.",
+                    title: "Magentoカスタム開発",
+                    desc: "お客様のビジネス要件に合わせたフルサイクルのMagento開発。当社の認定開発者が、お客様のアイデアを高品質で実現します。私たちは、優れたサービス、迅速な市場投入、最高の価格対性能比を保証します。",
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/2.jpg",
                 },
                 {
                     id: 3,
-                    title: "Server Configuration and Migration Service",
-                    desc: "Magento server configuration is a complex process that requires deep technical knowledge. To ensure your website functions quickly and smoothly, the dedicated team of specialists will configure your server or migrate it to a new server.",
+                    title: "サーバー構築・移行サービス",
+                    desc: "Magento のサーバー構成は、深い技術的知識を必要とする複雑なプロセスです。お客様のウェブサイトを迅速かつ円滑に機能させるため、専任のスペシャリストチームがサーバーの設定や新しいサーバーへの移行を行います。",
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/3.jpg",
                 },
                 {
                     id: 4,
-                    title: "Magento Mobile Application Development",
-                    desc: "Contact us to create a mobile app that meets your requirements. Using our experience in Magento, cross-platform, and native app development, we will discover the perfect solution for you.",
+                    title: "Magentoモバイルアプリケーション開発",
+                    desc: "お客様のご要望に応じたモバイルアプリを作成するために、私たちにご相談ください。Magento、クロスプラットフォーム、ネイティブアプリの開発経験を生かし、お客様に最適なソリューションをご提案します。",
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/4.jpg",
                 },
                 {
                     id: 5,
-                    title: "Magento SEO Support",
-                    desc: "Get an SEO-optimized website and a plan for ongoing improvement based on a complete analysis of your store - rank at the top of Google search results.",
+                    title: "Magento SEOサポート",
+                    desc: "SEOに最適化されたウェブサイトと、お店の完全な分析に基づく継続的な改善計画を入手 - Google検索結果の上位にランクされます。",
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/5.jpg",
                 },
                 {
                     id: 6,
-                    title: "Magento Integration Service",
-                    desc: "Integrate Magento 2 with CRM systems, analytics tools, payment solutions, and marketplaces such as Amazon, eBay, and Facebook Shop.",
+                    title: "Magentoインテグレーションサービス",
+                    desc: "Magento 2 を CRM システム、分析ツール、決済ソリューション、Amazon、eBay、Facebook Shop などのマーケットプレイスと連携させることができます。",
                     img: "https://da8pk1kbkdsqo.cloudfront.net/images/services/magento/6.jpg",
                 },
             ],
             BUTTONS_ECOMMERCE: [
                 {
                     id: 1,
-                    name: "All",
+                    name: "全て",
                     value: "all",
                 },
                 {
                     id: 2,
-                    name: "Transportation",
+                    name: "交通機関",
                     value: "transportation",
                 },
                 {
                     id: 3,
-                    name: "Architecture & Interior",
+                    name: "建築・インテリア",
                     value: "architectureInterior",
                 },
                 {
                     id: 4,
-                    name: "Fashion",
+                    name: "ファッション",
                     value: "fashion",
                 },
                 {
                     id: 5,
-                    name: "Real Estate",
-                    value: "real-eastate",
+                    name: "不動産",
+                    value: "real-estate",
                 },
                 {
                     id: 6,
-                    name: "F & B",
+                    name: "F&B",
                     value: "fb",
                 },
                 {
                     id: 7,
-                    name: "Media & Entertainment",
+                    name: "メディア・エンターテイメント",
                     value: "mediaEntertaiment",
                 },
                 {
                     id: 8,
-                    name: "Health & Beauty",
+                    name: "ヘルス・ビューティー",
                     value: "healthBeauty",
                 },
                 {
                     id: 9,
-                    name: "Retail",
+                    name: "小売",
                     value: "retail",
                 },
             ],
         },
         saleforce: {
-            title: "Salesforce Service",
+            title: "セールスフォースサービス",
             description:
-                "We assist customers from all around the world in determining the fittest Salesforce solutions and feature combination for driving business transformation. We develop the proper method and combination of middleware and APIs to integrate these solutions with on-premises applications using our extensive engineering knowledge.",
+                "世界中のお客様の業務改革を推進するために、最適なSalesforceソリューションと機能の組み合わせを決定するお手伝いをします。また、これらのソリューションとオンプレミスアプリケーションを連携させるためのミドルウェアやAPIの適切な組み合わせと方法を、豊富なエンジニアリング知識で開発します。",
             offer: {
-                title: "What We Offer?",
+                title: "提供するもの",
                 items: [
                     {
                         id: 1,
-                        name: "Salesforce Consulting",
+                        name: "セールスフォース・コンサルティング",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/sale-force/1.jpg",
                         description:
-                            "Get the most out of your Salesforce investment. Our agile strategy allows you to work with local experts and benefit from our worldwide delivery knowledge. We can provide the right resources for your business transformation goals, regardless of your sector or project size.",
+                            "セールスフォースへの投資を最大限に活用します。当社のアジャイル戦略により、お客様は現地のエキスパートと協力しながら、当社のワールドワイドなデリバリー知識を活用することができます。業種やプロジェクトの規模にかかわらず、お客様のビジネス変革の目標に適したリソースを提供します。",
                     },
                     {
                         id: 2,
-                        name: "Salesforce Custom Development",
+                        name: "セールスフォース・カスタム開発",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/sale-force/2.jpg",
                         description:
-                            "With our highly skilled development team&apos;s experience, we can take your Salesforce platform to the next level.",
+                            "高いスキルを持つ開発チームの経験により、お客様のセールスフォースプラットフォームを次のレベルへ進化させます。",
                     },
                     {
                         id: 3,
-                        name: "Salesforce Integration",
+                        name: "セールスフォースとの連携",
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/services/sale-force/3.jpg",
                         description:
-                            "Integrate Salesforce to your existing infrastructure in a more efficient manner. Our specialists know how to connect your services the best manner possible, whether it&apos;s through middleware or direct connections. To future-proof your business, build and execute integration processes the proper way.",
+                            "既存のインフラにセールスフォースを効率的に統合します。当社のスペシャリストは、ミドルウェアや直接接続など、お客様のサービスを最適な方法で接続する方法を知っています。お客様のビジネスの将来を見据え、適切な方法で統合プロセスを構築・実行します。",
                     },
                 ],
             },
             stories: {
-                title: "Our Success Stories",
+                title: "成功事例",
                 description:
-                    "Success is no easy accomplishment, but with a trusted partner and an effective collaboration, success comes to you without harsh tries. With us!",
+                    "成功は簡単に達成できるものではありませんが、信頼できるパートナーと効果的なコラボレーションがあれば、厳しい試みをしなくても成功を収めることができます。私達と一緒に。",
                 items: [
                     {
                         id: 1,
@@ -1843,7 +1843,7 @@ export default {
                         thumbnailUrl:
                             "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/veritone.jpg",
                         description:
-                            "The Admin and Marketing teams want to manage and observe the Media Campaign data, so a system with tons of standard functions and also easy to customize is needed. Veritone's Salesforce system is developed with standard and customized objects management functions and intergrates Veritone Core system for data migration. Solutions: Sales Cloud, Service Cloud, REST API.",
+                            "管理者チームとマーケティングチームは、メディアキャンペーンのデータを管理・観察したいため、標準機能が豊富で、かつカスタマイズが容易なシステムが必要でした。VeritoneのSalesforceシステムは、標準およびカスタマイズされたオブジェクト管理機能を備えており、データ移行用にVeritone Coreシステムを統合して開発されています。 ソリューション：セールス・クラウド、サービス・クラウド、REST API。",
                     },
                 ],
             },
@@ -2960,7 +2960,7 @@ export default {
             description:
                 "AWS認定エンジニアを擁するSETA Internationalは、Amazon Web Servicesを活用したシステム設計を行い、可用性の高いクラウドインフラ上で最高水準のソフトウェアプラットフォームを実現しました。",
             content:
-                "<ul className='text-white text-lg mt-5'> <li>- PHP Laravel（ウェブサイト開発）</li> <li>- Route53 (DNS service)</li> <li>- Elastic Load Balancing (Performance boosting)</li> <li>- EC2 (Code)</li> </ul> <ul className='text-white text-lg mt-5'> <li>- VPC (Security)</li> <li>- Amazon S3 (Storage)</li> <li>- Amazon API Gateway (API call)</li> <li>- Amazon Simple Email Service (email provider)</li> </ul>",
+                "<ul className='text-white text-lg mt-5'> <li>- PHP Laravel（ウェブサイト開発）</li> <li>- Route53 (DNS サビース)</li> <li>- Elastic Load Balancing (パフォーマンス向上)</li> <li>- EC2 (コード)</li> </ul> <ul className='text-white text-lg mt-5'> <li>- VPC (セキュリティ)</li> <li>- Amazon S3 (保管)</li> <li>- Amazon API Gateway (APIコール)</li> <li>- Amazon Simple Email Service (メールプロバイダ)</li> </ul>",
         },
     },
     beautyEncounter: {
