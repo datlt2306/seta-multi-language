@@ -1,18 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
-import Link from "next/link";
-import React, { useEffect } from "react";
-import styles from "./Header.module.css";
-import { useRouter } from "next/router";
-import clsx from "clsx";
-import Arrow from "../Icons/Arrow";
-import NavLink from "../NavLink";
 import { ThemeContext } from "@/context/state";
 import useTrans from "@/hooks/useTranslate";
 import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/router";
+import React from "react";
+import Arrow from "../Icons/Arrow";
+import NavLink from "../NavLink";
+import styles from "./Header.module.css";
 
 const Header = () => {
     const { toggleFunction } = React.useContext(ThemeContext);
     const { menuList, menuContact } = useTrans();
+    const router = useRouter();
     return (
         <header className="sticky top-0 z-50 bg-white shadow-md">
             <div className="max-w-7xl mx-auto px-5">
@@ -119,6 +119,52 @@ const Header = () => {
                                 >
                                     {menuContact.label}
                                 </a>
+                            </li>
+                            <li className="relative group">
+                                <a className="block py-1">
+                                    {router.locale === "jp" ? (
+                                        <Image
+                                            src="/images/icons/japan.png"
+                                            width={32}
+                                            height={32}
+                                            priority
+                                        />
+                                    ) : (
+                                        <Image
+                                            src="/images/icons/united-states-of-america.png"
+                                            width={32}
+                                            height={32}
+                                            priority
+                                        />
+                                    )}
+                                </a>
+                                <div className="group-hover:block hidden absolute right-0 z-10 top-8 text-right w-14 ">
+                                    <div className="py-1" role="none">
+                                        {router.locale === "en" ? (
+                                            <Link href="/jp" locale="jp">
+                                                <a className="cursor-pointer block">
+                                                    <Image
+                                                        src="/images/icons/japan.png"
+                                                        width={32}
+                                                        height={32}
+                                                        priority
+                                                    />
+                                                </a>
+                                            </Link>
+                                        ) : (
+                                            <Link href="/en" locale="en">
+                                                <a className="cursor-pointer block">
+                                                    <Image
+                                                        src="/images/icons/united-states-of-america.png"
+                                                        width={32}
+                                                        height={32}
+                                                        priority
+                                                    />
+                                                </a>
+                                            </Link>
+                                        )}
+                                    </div>
+                                </div>
                             </li>
                         </ul>
                     </div>
