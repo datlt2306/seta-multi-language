@@ -11,10 +11,9 @@
     },
     "dependencies": {
         "@fancyapps/ui": "^4.0.30",
-        "@next/font": "^13.0.5",
         "axios": "^0.27.2",
         "clsx": "^1.2.1",
-        "next": "^13.0.5",
+        "next": "^12.2.3",
         "next-sitemap": "^3.1.21",
         "next-transpile-modules": "^9.0.0",
         "path-to-regexp": "^6.2.1",
