@@ -13,6 +13,10 @@ const Header = () => {
     const { toggleFunction } = React.useContext(ThemeContext);
     const { menuList, menuContact } = useTrans();
     const router = useRouter();
+    const { pathname, asPath, query } = router;
+    console.log("pathname", pathname);
+    console.log("asPath", asPath);
+    console.log("query", query);
     return (
         <header className="sticky top-0 z-50 bg-white shadow-md">
             <div className="max-w-7xl mx-auto px-5">
@@ -141,7 +145,7 @@ const Header = () => {
                                 <div className="group-hover:block hidden absolute right-0 z-10 top-8 text-right w-14 ">
                                     <div className="py-1" role="none">
                                         {router.locale === "en" ? (
-                                            <Link href="/jp" locale="jp">
+                                            <Link href={`/jp${pathname}`} locale="jp">
                                                 <a className="cursor-pointer block">
                                                     <Image
                                                         src="/images/icons/japan.png"
@@ -152,7 +156,7 @@ const Header = () => {
                                                 </a>
                                             </Link>
                                         ) : (
-                                            <Link href="/en" locale="en">
+                                            <Link href={`/en${pathname}`} locale="en">
                                                 <a className="cursor-pointer block">
                                                     <Image
                                                         src="/images/icons/united-states-of-america.png"
