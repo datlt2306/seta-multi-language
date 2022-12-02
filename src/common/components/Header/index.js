@@ -13,10 +13,7 @@ const Header = () => {
     const { toggleFunction } = React.useContext(ThemeContext);
     const { menuList, menuContact } = useTrans();
     const router = useRouter();
-    const { pathname, asPath, query } = router;
-    console.log("pathname", pathname);
-    console.log("asPath", asPath);
-    console.log("query", query);
+    const { pathname } = router;
     return (
         <header className="sticky top-0 z-50 bg-white shadow-md">
             <div className="max-w-7xl mx-auto px-5">
@@ -142,28 +139,30 @@ const Header = () => {
                                         />
                                     )}
                                 </a>
-                                <div className="group-hover:block hidden absolute right-0 z-10 top-8 text-right w-14 ">
+                                <div className="group-hover:block hidden absolute right-0 z-10 mt-2 top-7 w-40 px-4 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                                     <div className="py-1" role="none">
                                         {router.locale === "en" ? (
                                             <Link href={`/jp${pathname}`} locale="jp">
-                                                <a className="cursor-pointer block">
+                                                <a className="cursor-pointer flex items-center space-x-2">
                                                     <Image
                                                         src="/images/icons/japan.png"
                                                         width={32}
                                                         height={32}
                                                         priority
                                                     />
+                                                    <span>Japanese</span>
                                                 </a>
                                             </Link>
                                         ) : (
                                             <Link href={`/en${pathname}`} locale="en">
-                                                <a className="cursor-pointer block">
+                                                <a className="cursor-pointer  flex items-center space-x-2">
                                                     <Image
                                                         src="/images/icons/united-states-of-america.png"
                                                         width={32}
                                                         height={32}
                                                         priority
                                                     />
+                                                    <span>English</span>
                                                 </a>
                                             </Link>
                                         )}
