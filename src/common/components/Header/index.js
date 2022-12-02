@@ -172,6 +172,31 @@ const Header = () => {
                         </ul>
                     </div>
                     <div className="flex space-x-5 items-center">
+                        <div className="block md:hidden">
+                            {router.locale === "en" ? (
+                                <Link href={`/jp${pathname}`} locale="jp">
+                                    <a className="cursor-pointer flex items-center space-x-2">
+                                        <Image
+                                            src="/images/icons/japan.png"
+                                            width={32}
+                                            height={32}
+                                            priority
+                                        />
+                                    </a>
+                                </Link>
+                            ) : (
+                                <Link href={`/en${pathname}`} locale="en">
+                                    <a className="cursor-pointer  flex items-center space-x-2">
+                                        <Image
+                                            src="/images/icons/united-states-of-america.png"
+                                            width={32}
+                                            height={32}
+                                            priority
+                                        />
+                                    </a>
+                                </Link>
+                            )}
+                        </div>
                         <button
                             id="menu-switch"
                             className={styles["menu-switch"]}
