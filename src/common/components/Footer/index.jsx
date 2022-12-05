@@ -1,8 +1,6 @@
-import { MenuIndustries } from "@/data";
 import useTrans from "@/hooks/useTranslate";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import React from "react";
 
 const Footer = () => {
     const {
@@ -82,7 +80,7 @@ const Footer = () => {
                         </div>
                         <div>
                             <h3 className="font-semibold text-white mb-2 sm:text-lg md:text-xl uppercase">
-                                {MenuIndustries.heading}
+                                {menuIndustries.heading}
                             </h3>
                             <ul className="leading-8">
                                 {menuIndustries.menus.map((menu, index) => (
