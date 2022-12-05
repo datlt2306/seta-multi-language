@@ -14,7 +14,7 @@ const Tollroads = () => {
                     data={{
                         title: `${tollroads.title}`,
                         description: `${tollroads.description}`,
-                        url: "https://seta-international.com/case-study/toll-roads",
+                        url: "https://seta-international.com/case-study/tollroads",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />

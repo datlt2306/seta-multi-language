@@ -39,7 +39,7 @@ const MobileDevelopmentPage = () => {
                     <div className="grid md:grid-cols-2 gap-8">
                         {mobile.stories.items.map((item, index) => (
                             <div>
-                                <Link href="/case-study/toll-roads">
+                                <Link href="/case-study/tollroads">
                                     <a>
                                         <Image
                                             loading="lazy"

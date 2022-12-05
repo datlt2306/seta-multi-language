@@ -1,13 +1,20 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Head, Html, Main, NextScript } from "next/document";
 import Script from "next/script";
 
-import React from "react";
 import { GA_TRACKING_ID } from "@/lib/gtag";
 export default function Document() {
     return (
         <Html>
             <Head>
                 <link rel="shortcut icon" href="/favicon.ico" />
+                {/* <link
+                    rel="preload"
+                    href="/fonts/hiragino_kaku_gothic_pro_w6-webfont.woff2"
+                    as="font"
+                    type="font/woff2"
+                    crossOrigin="anonymous"
+                /> */}
+
                 {/* Global Site Tag (gtag.js) - Google Analytics */}
                 <Script
                     strategy="afterInteractive"

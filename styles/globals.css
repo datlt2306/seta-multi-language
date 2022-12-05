@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "hiragino_kaku_gothic_prow6";
+    src: url("/fonts/hiragino_kaku_gothic_pro_w6-webfont.woff2") format("woff2"),
+        url("/fonts/hiragino_kaku_gothic_pro_w6-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font-hiragino-kaku {
+    font-family: "hiragino_kaku_gothic_prow6";
+}
 /*
 We have this so that when the select is greyed, its options aren't
 */
