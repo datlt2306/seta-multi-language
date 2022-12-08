@@ -50,7 +50,6 @@ const ResearchDevelopment = () => {
                                     className=" embed-responsive-item"
                                     poster="https://da8pk1kbkdsqo.cloudfront.net/images/demo.png"
                                     loop
-                                    autoPlay
                                     width="100%"
                                     height="100%"
                                     src="https://d1vru1eiq1l0ol.cloudfront.net/videos/Complete+V1+.mp4"
