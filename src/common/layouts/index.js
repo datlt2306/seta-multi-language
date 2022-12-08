@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
     return (
         <div
             className={`${toggle ? "toggled" : ""}${
-                router.locale === "en" ? "font-roboto" : "font-hiragino-kaku"
+                router.locale === "en" ? " font-roboto" : " font-hiragino-kaku"
             }`}
         >
             <Nav />
