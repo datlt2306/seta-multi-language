@@ -1913,7 +1913,7 @@ export default {
         },
     },
     arvr: {
-        titlte: "AR・VR（拡張現実・仮想現実）",
+        title: "AR・VR（拡張現実・仮想現実）",
         description:
             "AR・VR（拡張現実・仮想現実）は、現実とコンピュータによる幻想の境界を曖昧にするものです。AR/VRは、私たちの遊び方、働き方、学び方、コミュニケーションの仕方を変える可能性を秘めています。VRがユーザーを3D仮想環境に完全に没入させるのに対し、ARはコンピューターで生成された画像を取得し、それをあなたの世界観に重ね合わせます。第4の変革に移行し、あなたの会社のメタバースを構築するために、SETAにお手伝いさせてください。",
         why: {
@@ -3357,7 +3357,7 @@ export default {
             {
                 id: 6,
                 img: "https://da8pk1kbkdsqo.cloudfront.net/images/icons/culture/6.svg",
-                name: "SETA COMMUNITIES",
+                name: "SETA コミュニティ",
             },
         ],
         employee: {

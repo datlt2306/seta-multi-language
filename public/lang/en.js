@@ -161,7 +161,7 @@ export default {
                     icon: "/images/icons/pin-2.png",
                 },
                 {
-                    label: "Seta Insight",
+                    label: "SETA Insight",
                     path: "https://blog.seta-international.com",
                     icon: "/images/icons/papers.png",
                 },
@@ -222,7 +222,7 @@ export default {
                 path: "/about/location",
             },
             {
-                label: "Seta Insight",
+                label: "SETA Insight",
                 path: "https://blog.seta-international.com",
                 icon: "/images/icons/papers.png",
             },
@@ -525,7 +525,7 @@ export default {
             ],
         },
         reason: {
-            title: "Why Seta International?",
+            title: "Why SETA International?",
             items: [
                 {
                     id: 1,
@@ -1927,7 +1927,7 @@ export default {
         },
     },
     arvr: {
-        titlte: "AR/VR (Augmented Reality/Virtual Reality)",
+        title: "AR/VR (Augmented Reality/Virtual Reality)",
         metaTitle: "Next-Gen Technology - AR/VR (Augmented Reality/Virtual Reality)",
         description:
             "AR/VR (Augmented Reality/Virtual Reality) are blurring lines between which is real and which is a computer-generated illusion. AR/VR has potentially transformed how we play, work, learn, and communicate. While VR fully immerses users into 3D virtual environments, AR gets computer-generated images and overlays them on your view of the world. Let SETA help you to move into the fourth transformation and build a metaverse for your company.",
@@ -3559,7 +3559,7 @@ export default {
                     imageUrl: "https://da8pk1kbkdsqo.cloudfront.net/images/culture/31.jpg",
                     name: " Ms. Pham Thi Huong",
                     position: "Accountant Executive",
-                    desc: "I have been with Seta since 2019 until now. For me, the company is my second home because the working environment is amiable and dynamic. People here are mainly young people full of dynamism, enthusiasm, and humor.",
+                    desc: "I have been with SETA since 2019 until now. For me, the company is my second home because the working environment is amiable and dynamic. People here are mainly young people full of dynamism, enthusiasm, and humor.",
                 },
                 {
                     id: 13,

@@ -105,7 +105,7 @@ const our_people = [
         imageUrl: "https://da8pk1kbkdsqo.cloudfront.net/images/culture/31.jpg",
         name: " Ms. Pham Thi Huong",
         position: "Accountant Executive",
-        desc: "I have been with Seta since 2019 until now. For me, the company is my second home because the working environment is amiable and dynamic. People here are mainly young people full of dynamism, enthusiasm, and humor.",
+        desc: "I have been with SETA since 2019 until now. For me, the company is my second home because the working environment is amiable and dynamic. People here are mainly young people full of dynamism, enthusiasm, and humor.",
     },
     {
         id: 13,

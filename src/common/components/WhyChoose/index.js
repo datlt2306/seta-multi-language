@@ -12,7 +12,7 @@ const WhyChoose = () => {
             <img
                 loading="lazy"
                 src="https://da8pk1kbkdsqo.cloudfront.net/images/banner-why.svg"
-                alt="Why Seta International?"
+                alt="Why SETA International?"
                 className="transform absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-10"
             />
             <div className="max-w-7xl mx-auto px-5 relative z-10">

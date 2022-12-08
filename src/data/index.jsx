@@ -160,7 +160,7 @@ export const MAIN_MENU_LIST = [
                 icon: "https://da8pk1kbkdsqo.cloudfront.net/images/icons/pin-2.svg",
             },
             {
-                label: "Seta Insight",
+                label: "SETA Insight",
                 path: "https://blog.seta-international.com",
                 icon: "https://da8pk1kbkdsqo.cloudfront.net/images/icons/papers.svg",
             },

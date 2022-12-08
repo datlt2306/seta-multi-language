@@ -506,12 +506,12 @@ const Nav = () => {
                                     <Image
                                         className="h-4 w-4 inline-block mr-1"
                                         src="/images/icons/papers.png"
-                                        alt="Seta Insight"
+                                        alt="SETA Insight"
                                         objectFit="contain"
                                         width={16}
                                         height={18}
                                     />
-                                    <span>Seta Insight</span>
+                                    <span>SETA Insight</span>
                                 </a>
                             </Link>
                         </li>

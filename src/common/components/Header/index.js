@@ -23,7 +23,7 @@ const Header = () => {
                             <a className="cursor-pointer">
                                 <Image
                                     src="/images/seta-international.webp"
-                                    alt="Logo Seta International"
+                                    alt="Logo SETA International"
                                     width={268}
                                     height={41}
                                     priority
