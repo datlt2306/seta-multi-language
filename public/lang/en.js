@@ -3200,7 +3200,7 @@ export default {
         },
     },
     ujazo: {
-        title: "About Ujaro",
+        title: "About Ujazo",
         description:
             "Ujazo was established with one primary mission – Help consumers be aware of their health status and lean how to improve the areas that needs more attention",
         challenge: {

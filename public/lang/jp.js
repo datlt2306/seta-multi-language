@@ -2925,7 +2925,7 @@ export default {
             thumbnailUrl: "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/2.jpg",
         },
         solution: {
-            title: "Solution",
+            title: "ソリューション",
             description:
                 "SETAは、自動車用コネクティビティとIoTプロジェクトに従事する20人以上の高品質なリソースを提供することができます。",
         },
