@@ -53,7 +53,7 @@ const Nav = () => {
                             <ul className="p-2 ml-4">
                                 {menuList[0].subCate[0].children.map((menu, index) => (
                                     <li key={index}>
-                                        <Link href="/services/web-application-development">
+                                        <Link href={menu.path}>
                                             <a className="nav__link">
                                                 <Image
                                                     className="h-4 w-4 inline-block mr-1"
@@ -91,7 +91,7 @@ const Nav = () => {
                             <ul className="p-2 ml-4">
                                 {menuList[1].children.map((menu, index) => (
                                     <li key={index}>
-                                        <Link href="/services/web-application-development">
+                                        <Link href={menu.path}>
                                             <a className="nav__link">
                                                 <Image
                                                     className="h-4 w-4 inline-block mr-1"
@@ -133,7 +133,7 @@ const Nav = () => {
                     <ul className="border border-gray-100 bg-white z-10 pl-6">
                         {menuList[2].children.map((menu, index) => (
                             <li key={index} className={styles["nav__item"]}>
-                                <Link href="/services/web-application-development">
+                                <Link href={menu.path}>
                                     <a className="nav__link">
                                         <Image
                                             className="h-4 w-4 inline-block mr-1"
@@ -185,7 +185,7 @@ const Nav = () => {
                     <ul className="p-2 ml-4">
                         {menuList[5].children.map((menu, index) => (
                             <li className={styles["nav__item"]} key={index}>
-                                <Link href="/about/culture">
+                                <Link href={menu.path}>
                                     <a className="nav__link">
                                         <Image
                                             className="h-4 w-4 inline-block mr-1"
