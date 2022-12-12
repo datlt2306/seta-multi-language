@@ -209,6 +209,7 @@ export default {
             { label: "交通機関", path: "/industries/transportation" },
             { label: "小売", path: "/industries/retail" },
             { label: "金融", path: "/industries/finance" },
+            { label: "Energy", path: "/industries/energy" },
         ],
     },
     menuAboutUs: {

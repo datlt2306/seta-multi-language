@@ -209,6 +209,7 @@ export default {
             { label: "Transportation", path: "/industries/transportation" },
             { label: "Retail", path: "/industries/retail" },
             { label: "Finance", path: "/industries/finance" },
+            { label: "Energy", path: "/industries/energy" },
         ],
     },
     menuAboutUs: {
