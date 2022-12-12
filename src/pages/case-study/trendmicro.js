@@ -19,7 +19,7 @@ const Trendmicro = () => {
                     data={{
                         title: `${trendmicro.title}`,
                         description: `${trendmicro.description}`,
-                        url: "https://seta-international.com/case-study/trend-micro",
+                        url: "https://seta-international.com/case-study/trendmicro",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />

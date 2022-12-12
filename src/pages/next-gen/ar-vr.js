@@ -69,14 +69,14 @@ const Arvr = () => {
                     <div className="grid md:grid-cols-2 gap-12 mb-10">
                         <div className="order-2 md:order-1">
                             <h3 className="inline-block border-b border-[#2C5282] text-[#2C5282] hover:text-[#E53E3E] text-xl mb-6 pb-3">
-                                <Link href="/case-study/sk-planet">
+                                <Link href="/case-study/skplanet">
                                     <a className="uppercase">{arvr.stories.items[0].name}</a>
                                 </Link>
                             </h3>
                             <p className="text-lg text-[#2A4365]">
                                 {arvr.stories.items[0].content}
                             </p>
-                            <Link href="/case-study/sk-planet">
+                            <Link href="/case-study/skplanet">
                                 <a className="case-study__btn">
                                     {btn.viewMore}
                                     <ViewMoreIcon />
@@ -84,7 +84,7 @@ const Arvr = () => {
                             </Link>
                         </div>
                         <div className="order-1 md:order-2">
-                            <Link href="/case-study/sk-planet">
+                            <Link href="/case-study/skplanet">
                                 <img
                                     loading="lazy"
                                     src="https://da8pk1kbkdsqo.cloudfront.net/images/case-study/skp/3.jpg"

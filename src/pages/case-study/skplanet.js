@@ -17,7 +17,7 @@ const Skplanet = () => {
                     data={{
                         title: `${skplanet.title}`,
                         description: `${skplanet.description}`,
-                        url: "https://seta-international.com/case-study/sk-planet/",
+                        url: "https://seta-international.com/case-study/skplanet/",
                         thumbnailUrl: "/images/seta-international.webp",
                     }}
                 />
