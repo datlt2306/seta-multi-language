@@ -209,7 +209,7 @@ export default {
             { label: "交通機関", path: "/industries/transportation" },
             { label: "小売", path: "/industries/retail" },
             { label: "金融", path: "/industries/finance" },
-            { label: "Energy", path: "/industries/energy" },
+            { label: "エネルギー", path: "/industries/energy" },
         ],
     },
     menuAboutUs: {
@@ -3038,7 +3038,7 @@ export default {
         title: "Panavisionについて",
         description: "パナビジョンは、ハリウッドを代表する映像のブランドです。",
         value: {
-            title: "Value",
+            title: "価値",
             content:
                 "SETAが作成したiPhoneアプリケーションは、2日目にはiTunesで最もダウンロードされたアプリケーションのトップ200に昇格しました。 <br /> <br /> SETAでは、iPhoneを体験してもらうために、ウェブサイトを作成しました。",
             thumbnailUrl: "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/panavision/2.jpg",
@@ -3180,7 +3180,7 @@ export default {
         },
     },
     ujazo: {
-        title: "Ujaroについて",
+        title: "UJazo",
         description:
             "Ujazoは、消費者が自分の健康状態を認識し、より注意を払うべき分野を改善する方法を見出すことを第一の使命として設立されました。",
         challenge: {
