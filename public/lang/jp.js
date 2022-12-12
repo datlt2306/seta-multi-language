@@ -195,6 +195,7 @@ export default {
             { label: "AI", path: "/next-gen/ai" },
             { label: "IoT", path: "/next-gen/iot" },
             { label: "ブロックチェーン", path: "/next-gen/blockchain" },
+            { label: "AR/VR", path: "/next-gen/ar-vr" },
             { label: "ビッグデータ", path: "/next-gen/big-data" },
             { label: "クラウド", path: "/next-gen/cloud" },
         ],
