@@ -3066,7 +3066,7 @@ export default {
             thumbnailUrl: "https://da8pk1kbkdsqo.cloudfront.net/images/case-study/3.png",
         },
         solution: {
-            title: "Solution",
+            title: "ソリューション",
             description:
                 "TREが多くのコンサルタントと話をし、SETAのリソースを慎重にヒアリングした結果、SETAが選ばれました。 <br className='hidden md:block' /> SETAは、旧システムをAWSクラウドと.NET技術に移行しました。 <br className='hidden md:block' /> システムのパフォーマンスが向上し、何千ものレストランにサービスを提供できるようになりました。",
         },
