@@ -83,7 +83,7 @@ const CaseStudiesPage = () => {
                             </p>
                             <Link href={caseStudy.sectionOne.items[1].path}>
                                 <a className="case-study__btn">
-                                    View more
+                                    {btn.viewMore}
                                     <ViewMoreIcon />
                                 </a>
                             </Link>
@@ -103,7 +103,7 @@ const CaseStudiesPage = () => {
                             </p>
                             <Link href={caseStudy.sectionOne.items[2].path}>
                                 <a className="case-study__btn">
-                                    View more
+                                    {btn.viewMore}
                                     <ViewMoreIcon />
                                 </a>
                             </Link>

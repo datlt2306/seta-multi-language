@@ -86,8 +86,50 @@ const Nav = () => {
                                         d="M16 8v8m-4-5v5m-4-2v2m-2 4h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
                                     />
                                 </svg>
-                                {menuList[1].label}
+                                {menuList[0].subCate[1].label}
                             </a>
+                            <ul className="p-2 ml-4">
+                                {menuList[0].subCate[1].children.map((menu, index) => (
+                                    <li key={index}>
+                                        <Link href={menu.path}>
+                                            <a className="nav__link">
+                                                <Image
+                                                    className="h-4 w-4 inline-block mr-1"
+                                                    src={menu.icon}
+                                                    alt={menu.label}
+                                                    objectFit="contain"
+                                                    width={16}
+                                                    height={18}
+                                                />
+                                                <span>{menu.label}</span>
+                                            </a>
+                                        </Link>
+                                    </li>
+                                ))}
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li className="relative group">
+                    <a className={styles["sidebar-menu__link"]}>
+                        <span className="last firstlevel">{menuList[1].label}</span>
+                        <svg
+                            xmlns="http://www.w3.org/2000/png"
+                            className="h-3 w-3 inline-block font-bold"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                        >
+                            <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                strokeWidth={2}
+                                d="M19 9l-7 7-7-7"
+                            />
+                        </svg>
+                    </a>
+                    <ul className={styles["sidebar-sub-menu"]}>
+                        <li className={styles["nav__item"]}>
                             <ul className="p-2 ml-4">
                                 {menuList[1].children.map((menu, index) => (
                                     <li key={index}>
